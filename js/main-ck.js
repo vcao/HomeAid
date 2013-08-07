@@ -1,0 +1,1 @@
+function sticky_relocate(){var e=$(window).scrollTop(),t=$("#sticky-anchor").offset().top;e>t?$("#submenu").addClass("nav-fixed"):$("#submenu").removeClass("nav-fixed")}$(document).ready(function(){$("#toggle").click(function(){$("#mobile-menu").slideToggle()})});$(function(){$(window).scroll(sticky_relocate);sticky_relocate()});

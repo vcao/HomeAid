@@ -1,0 +1,7 @@
+
+.ico-home:before { content: '\61'; } /* 'a' */
+.ico-plus:before { content: '\65'; } /* 'e' */
+.ico-adult:before { content: '\66'; } /* 'f' */
+.ico-commerical-building:before { content: '\64'; } /* 'd' */
+.ico-calendar-empty:before { content: '\62'; } /* 'b' */
+.ico-dollar:before { content: '\63'; } /* 'c' */

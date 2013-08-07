@@ -1,0 +1,39 @@
+.slider {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    word-wrap: break-word;
+
+      ul {list-style-type:none; margin:0; padding:0;}
+      h2 {font-size:3rem; line-height:1em; @include zeroOut; @include textShadow;}
+      h3 {font-size:1.75rem; line-height:1.75rem; @include zeroOut; @include textShadow;}
+
+      .aside {
+      background: #000;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      color: white;
+      left: 0 !important;
+      bottom: 30px;
+      position: static;
+      border: 0;
+      font-size: 100%;
+      margin:0 auto;
+      padding: 15px 20px;
+      width:100%;
+      text-align: left !important;
+      text-transform: uppercase;
+      word-wrap: break-word;
+      vertical-align: baseline;
+      z-index: 3;
+      display: inline-block;
+      }
+      .aside-right {
+        left: auto;
+        right: 0;
+      }
+      .aside-left {
+        right: auto;
+        left: 0;
+      }
+  }

@@ -1,0 +1,922 @@
+
+/* ==========================================================================
+   VARIABLES
+   ========================================================================== */
+$primary: #f26522;
+$secondary: orange;
+$bg-color: #000;
+$link: #16a3d7;
+
+@mixin zeroOut {
+    margin: 0;
+    padding: 0;
+}
+
+@mixin borderBox {
+  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+@mixin defaultRadius {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+@mixin textShadow {
+  text-shadow: 2px 1px 1px rgba(0,0,0,0.5);
+}
+
+/* ==========================================================================
+   TYPE
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+i { // icons
+  font-size: 30px;
+  float: left;
+  width: 30px;
+  margin-right: .2em;
+  vertical-align: middle;
+}
+
+.hdr-primary {
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hdr-secondry {
+  font-size: 2.0rem;
+
+}
+
+.lead {
+  padding: 0 1em;
+
+  h2 {
+    line-height: 1.15em;
+    @include zeroOut;
+  }
+}
+
+.about-us-hdr {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  
+  span {
+    font-family: 'Open Sans Condensed';
+    font-size: 5rem;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: -.15rem;
+    display: block;
+  }
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.orange {
+  background: black;
+  color: $secondary;
+}
+
+.bg-black {
+  background: #000;
+}
+.feature-content {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+html, body {
+  height: 100%;
+}
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+a { 
+    color: $link;
+    text-decoration: none;
+    &:hover { text-decoration: underline; }
+    &:visited { color: $link; }
+}
+
+button {
+  font-family: 'Open Sans Condensed', san-serif;
+  font-size: 1rem;
+  color: white;
+  background: $primary;
+  padding: 1em;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+#footer {
+    margin-top: 1em;
+}
+
+h1, h2, h3 {
+    font-family: sans-serif;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.main-container {
+    max-width:1000px;
+    margin:0 auto;
+}
+
+
+/* ===================
+    ALL: Color Theme
+   =================== */
+
+.header-container {
+    color: white;
+    background: $bg-color;
+    @include zeroOut;
+}
+
+#menu a, #menu a:visited {
+    color: white;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+    }
+}
+
+.footer-container {
+    background: #efefef;
+    clear: both;
+    padding: 1em 0;
+}
+
+
+#content p {
+  word-wrap: break-word;
+}
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+#header {
+  display: none;
+}
+
+#mobile-header {
+  background: #000;
+  margin: 0;
+  padding: 0;
+
+  #toggle {
+      margin-top: 30px;
+      margin-right: 30px;
+      display: inline-block;
+      font-size: 2rem;
+      float: right;
+
+      a {color: #fff; &:hover {text-decoration:none;}}
+    }
+
+  #mobile-menu {
+    display: none;
+    ul {
+      display: block;
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 0;
+      width: 100%;
+
+      li {
+        background-color: $primary;
+        display: inline-block;
+        float: left;
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+
+        &:hover {
+          background-color: $secondary;
+        }
+        a {
+          color: white;
+          text-decoration: none;
+          display: block;
+          width: 100%;
+          padding: 1em 0;
+        }
+      }
+    }
+  }
+
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+}
+
+#menu a {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 0;
+
+    font-weight: bold;
+    font-size: 1.15rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+    display:block;
+    @include borderBox;
+    float: none !important;
+}
+
+.card-break-2up {
+  width: 50%;
+  float: left !important;
+}
+
+/* ==============
+    MOBILE: Main
+   ============== */
+
+
+.footer-container #footer {
+    color: black;
+    padding: 20px 0;
+}
+
+.logo-footer {
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+}
+
+.title {
+  float: left;
+}
+
+.social {
+          float: left;
+          display: inline-block;
+          clear:both;
+          li {
+
+          }
+      }
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.center {
+  margin: 0 auto;
+}
+/* ===============
+    ALL: IE Fixes
+   =============== */
+
+.ie7 .title {
+    padding-top: 20px;
+}
+
+.card {
+  background: #efefef;
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+  padding: 0;
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+}
+
+.news {
+  .news-hdline span {
+    font-weight: 600;
+  }
+  ul {
+    list-style-type: none;
+  }
+}
+
+#submenu {
+  background: $bg-color;
+  color: white;
+  
+  ul {
+    display: table;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    width: 100%;
+    @include zeroOut;
+  }
+  li {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    border-right: 1px solid #222;
+    &:last-child {
+      background: $primary;
+      border: 0;
+    }
+  }
+  a {
+    color: rgba(255,255,255,0.5);
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    display: block;
+    padding: 40px 0;
+    &:hover {
+      color: rgba(255,255,255,1);
+    }
+  }
+}
+.nav-horiz li {
+display: table-cell;
+}
+
+.nav-fixed {
+  width: 100%;
+  position: fixed;
+  z-index:9999;
+  top:0;
+}
+
+.feature-hero {
+  img {
+    width: 100%;
+  }
+}
+
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+  .hero {
+    background:  #000;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    img {
+      width: 100%;
+    }
+  }
+ .slider {
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    word-wrap: break-word;
+
+      ul {list-style-type:none; margin:0; padding:0;}
+      h2 {font-size:3rem; line-height:1em; @include zeroOut; @include textShadow;}
+      h3 {font-size:1.75rem; line-height:1.75rem; @include zeroOut; @include textShadow;}
+
+      .aside {
+      background: #000;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      color: white;
+      left: 0 !important;
+      bottom: 30px;
+      position: static;
+      border: 0;
+      font-size: 100%;
+      margin:0 auto;
+      padding: 15px 20px;
+      width:100%;
+      text-align: left !important;
+      text-transform: uppercase;
+      word-wrap: break-word;
+      vertical-align: baseline;
+      z-index: 3;
+      display: inline-block;
+      }
+      .aside-right {
+        left: auto;
+        right: 0;
+      }
+      .aside-left {
+        right: auto;
+        left: 0;
+      }
+  }
+
+.nav-secondary {
+    background: #efefef;
+    border: 1px solid #ccc;
+    padding: 0;
+
+    h3 {
+        font-size: 1rem;
+        margin: 0;
+        padding: .5rem;
+    }
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            border-bottom: 1.75px dotted #bbb;
+            padding: .5rem;
+            vertical-align: middle;
+            
+            &:first-child {border-top: 1.75px dotted #bbb;} /* first child */
+            &:last-child {border-bottom: none;} /* last child */
+
+            .hdr {
+              display: block;
+              font-size: 14px;
+              line-height: 14px;
+              padding-top:2px;
+              text-transform: uppercase;
+              vertical-align: middle;
+            }
+
+            .hdr-sub { font-size: 14px; line-height: 14px; display: block; vertical-align: middle; }
+        } /* end secondary list item */
+    } /* end secondary list */
+} /* end secondary */
+
+.nav {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+
+    
+    li {
+        display: inline-block;
+        float: left;
+        padding: 0 1em;
+    }
+    li:first-child {
+        padding-left: 0;
+
+    }
+}
+
+#footer {
+  width: 100%;
+  bottom: 0;
+    .nav {
+        font-size: 1rem;
+    }
+    .copyright {
+        display: block;
+        margin:0;
+        padding:0;
+        float:left;
+        clear:both;
+        font-size: .85rem;
+    }
+}
+
+.pull-left {
+    float: none !important;
+}
+
+.pull-right {
+    float: none !important;
+}
+.ocard {
+  padding: 2em 1em;
+  background: white;
+}
+
+#overview {
+  background-image: url("/img/squairy_light.png");
+  padding-bottom:2em;
+}
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 480px) {
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    #menu a {
+        float: left;
+        margin: 0;
+        padding: 25px 4%;
+        margin-bottom: 0;
+    }
+
+    #menu li:first-child a {
+        margin-left: 0;
+    }
+
+    #menu li:last-child a {
+        margin-right: 0;
+    }
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    #menu ul li {
+        display: inline;
+    }
+
+    .oldie #menu a {
+        margin: 0 0.7%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+
+  /* ==========================================================================
+     GRID
+     ========================================================================== */
+  @import "grid";
+  
+  #mobile-header {
+    display: none;
+  }
+
+  .pull-left {
+    float: left !important;
+  }
+
+    .pull-right {
+      float: right !important;
+  }
+
+  /* ============
+      WIDE: Menu
+     ============ */
+
+      .title {
+          float: left;
+      }
+      #header {
+        display: block;
+      }
+      #menu {
+          float: right;
+          width: 500px;
+          margin-top: 20px;
+      }
+
+  /* ============
+      WIDE: Main
+     ============ */
+
+
+      .social {
+          float: left !important;
+          display: block;
+          clear:both;
+          li {
+              padding: .5rem .25rem !important;
+          }
+      }
+      #footer nav {
+          float: left;
+      }
+      .logo-footer {
+      float:right;
+      clear:left;
+  }
+  .hero {
+    background:  #000;
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1;
+    img {
+      margin: 0 auto;
+      text-align: center;
+      width: 100%;
+    }
+  }
+  .slider {
+      ul {list-style-type:none; margin:0; padding:0;}
+      h2 {font-size:3rem; line-height:1em; @include zeroOut;}
+      h3 {font-size:1.75rem; line-height:1rem; @include zeroOut;}
+
+      .aside {
+      background: none !important;
+      box-sizing: border-box;
+      color: white;
+      left: 0;
+      bottom: 30px;
+      position: absolute;
+      border: 0;
+      font-size: 100%;
+      margin:0 auto;
+      padding:0;
+      text-transform: uppercase;
+      vertical-align: baseline;
+      z-index: 3;
+      display: inline-block;
+      }
+      .aside-right {
+        left: auto;
+        right: 0;
+        
+      }
+      .aside-left {
+        right: auto;
+        left: 0;
+      }
+  }
+  .feature {
+  margin: 0;
+  padding:0;
+  background: #000;
+  min-height: 600px;
+  position: relative;
+  box-sizing: border-box;
+  // border-bottom: 1px solid #fff;
+  // border-top: 1px solid #000;
+  overflow: hidden;
+  }
+  .feature-hero {
+    bottom: 0;
+    left: 50%;
+    margin-left: -800px;
+    position: absolute;
+    top: 0;
+    width: 1600px;
+    z-index: 1;
+
+    img {
+      margin: 0 auto;
+      display: block;
+      width: 100%;
+    }
+  }
+  .feature-content {
+    background-color: transparent !important;
+    z-index: 5;
+    position: relative;
+    padding-top:50px;
+    h2 {
+      font-size: 2.5rem;
+      font-weight: 300;
+      
+      span {
+        color: $secondary;
+      }
+    }
+  }
+
+  .gutter-horiz-in {
+    padding-left: 1.53061225%;
+    padding-right: 1.53061225%;
+  }
+} // media query for 768
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        box-sizing: border-box;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+     */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
