@@ -54,6 +54,7 @@ i { // icons
 
 .lead {
   padding: 0 1em;
+  max-width: 650px;
 
   h2 {
     line-height: 1.15em;
@@ -201,9 +202,35 @@ h1 {
     margin:0 auto;
 }
 
-.row ul {
+#profile-feature ul {
   margin: 0;
   padding: 0;
+}
+
+.large-quote {
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+  color: #ff914b;
+  padding: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  quotes: "“" "”" "‘" "’";
+  display: block;
+
+  &:before {
+    font-size: 2rem;
+    font-family: Georgia;
+    color: #ccc;
+    content: open-quote;
+  }
+  &:after {
+    font-size: 2rem;
+    font-family: Georgia;
+    color: #ccc;
+    content: close-quote;
+  }
 }
 
 .facts {
@@ -229,7 +256,9 @@ h1 {
   font-size: 5.5rem;
   line-height: 3.4rem;
   span {
-    font-size: 1.5rem;
+    font-family: 'Open Sans';
+    font-size: 1.25rem;
+    font-weight: 700;
     display: block;
     font-weight: normal;
     text-transform: uppercase;
@@ -372,7 +401,7 @@ h1 {
     float: none;
 }
 
-.title {
+.logo {
   float: left;
 }
 
@@ -401,11 +430,49 @@ h1 {
     ALL: IE Fixes
    =============== */
 
-.ie7 .title {
+.ie7 .logo {
     padding-top: 20px;
 }
 
 .card {
+  background: #efefef;
+  border: 1px solid #ccc;
+  margin: 1rem 0;
+  padding: 0;
+  vertical-align: bottom;
+  box-sizing: border-box;
+  display: inline-block;
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+  }
+  h4 {
+    font-family: 'Open Sans Condensed';
+    color: #ccc;
+    font-weight: 700;
+    font-size: 3.2rem;
+    margin: 0;
+    padding: 0;
+    span {
+      font-size: 3.2rem;
+      letter-spacing: -2px;
+      color: black;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.action-card {
+  height: 320px;
+  padding: 1em;
+
+}
+
+.homecard {
   background: #efefef;
   border: 1px solid #ccc;
   margin: 1rem 0;
@@ -622,9 +689,19 @@ display: table-cell;
   background: white;
 }
 
+#profile-feature {
+  margin: 0;
+  padding: 0;
+  height: 250px;
+}
+
 #overview {
   background-image: url("/img/squairy_light.png");
   padding-bottom:2em;
+}
+
+#accomplishments {
+  background-color: #efede7;
 }
 
 img {
@@ -694,7 +771,11 @@ img {
      ============ */
 
       .title {
-          float: left;
+          float: none;
+      }
+
+      .logo { 
+        float: left;
       }
       #header {
         display: block;

@@ -11,6 +11,8 @@
 		<meta name="viewport" content="width=device-width">
 		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 		<link rel="stylesheet" href="css/normalize.min.css">
+		<link rel="stylesheet" href="css/animate.css"> <!-- Optional -->
+		<link rel="stylesheet" href="css/liquid-slider.css">
 		<link rel="stylesheet" href="css/main.css">
 		
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -21,7 +23,7 @@
 		<![endif]-->
 		<div class="header-container">
 			<div id="header" class="wrapper clearfix">
-				<h1 class="title"><a href="/"><img src="img/ha-logo-color.png"></a></h1>
+				<h1 class="logo"><a href="/"><img src="img/ha-logo-color.png"></a></h1>
 				<div id="menu">
 					<ul>
 						<li><a href="/about.html">About</a></li>
@@ -89,28 +91,88 @@
 			<h1 class="hdr-primary"><span>OVERVIEW</span></h1>
 			<div class="wrapper">
 			<div><img src="img/shelter-emmanuel-02.jpg" alt="Jesse" width="100%"></div>
-				<div class="row orange">
+				<div id="profile-feature" class="orange">
 					<ul class="facts">
 						<li><h3>24<span>beds</span></h1></li>
 						<li><h3>288<span>people served</span></h3></li>
-						<li>Purpose:<br> Improve health<br>Improve life skills<br>Improve self-sufficiency</li>
+						<li><b>Purpose:</b><br> Improve health<br>Improve life skills<br>Improve self-sufficiency</li>
 					</ul>
 				</div> <!-- .row -->
-				<div class="ocard row center-text">
-				<p class="lead">Mercy House operates Emmanuel House to serve homeless individuals suffering from HIV/AIDS. Homeless individuals suffering from HIV/AIDs are oftenly ostracized from communities because of a misperception that the diseases are easily transmitted. Therefore, individuals have no other place to go. Mercy House requires sobriety and coaching toward rebuilding productive and healthy living opportunities.</p>
-					<img src="img/shelter-emmanuel-sponsors.jpg">
+				<div class="ocard row">
+					<p class="lead center center-text">Mercy House operates Emmanuel House to serve homeless individuals suffering from HIV/AIDS. Homeless individuals suffering from HIV/AIDs are oftenly ostracized from communities because of a misperception that the diseases are easily transmitted. Therefore, individuals have no other place to go. Mercy House requires sobriety and coaching toward rebuilding productive and healthy living opportunities.</p>
+					<div class="large-quote">
+					People suffering from HIV/AIDs are oftenly ostracized from communities because of a misperception that the diseases are easily transmitted. 
 				</div>
+				</div>
+				
 			</div> <!-- .wrapper -->
 		</section>
 		<section id="people" class="wrapper">
 			<div class="row">
-				<h1 class="hdr-primary"><span>People Served</span></h1>
-					
+				<h1 class="hdr-primary"><span>Success Stories</span></h1>
+			      <div class="liquid-slider"  id="slider-stories">
+			        <div>
+			          <h2 class="title">Story 1</h2>
+			          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Sed volutpat ante id mauris laoreet vestibulum. Nam blandit felis non neque cursus aliquet. Morbi vel enim dignissim massa dignissim commodo vitae quis tellus. Nunc non mollis nulla. Sed consectetur elit id mi consectetur bibendum. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis. Aliquam sit amet purus lectus. Maecenas tempor ornare sollicitudin.</p>
+			        </div>
+			        <div>
+			          <h2 class="title">Story 2</h2>
+			          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Sed volutpat ante id mauris laoreet vestibulum. Nam blandit felis non neque cursus aliquet. Morbi vel enim dignissim massa dignissim commodo vitae quis tellus. Nunc non mollis nulla. Sed consectetur elit id mi consectetur bibendum. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis. Aliquam sit amet purus lectus. Maecenas tempor ornare sollicitudin.</p>
+			        </div>          
+			        <div>
+			          <h2 class="title">Story 3</h2>
+			          <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus</p>
+			        </div>
+			        <div>
+			          <h2 class="title">Story 4</h2>
+			          <p>Proin nec turpis eget dolor dictum lacinia. Nullam nunc magna, tincidunt eu porta in, faucibus sed magna. Suspendisse laoreet ornare ullamcorper. Nulla in tortor nibh. Pellentesque sed est vitae odio vestibulum aliquet in nec leo.</p>
+			          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas metus nulla, commodo a sodales sed, dignissim pretium nunc. Nam et lacus neque. Sed volutpat ante id mauris laoreet vestibulum. Nam blandit felis non neque cursus aliquet. Morbi vel enim dignissim massa dignissim commodo vitae quis tellus. Nunc non mollis nulla. Sed consectetur elit id mi consectetur bibendum. Ut enim massa, sodales tempor convallis et, iaculis ac massa. Etiam suscipit nisl eget lorem pellentesque quis iaculis mi mattis. Aliquam sit amet purus lectus. Maecenas tempor ornare sollicitudin.</p>
+			        </div>
+			      </div>
+			      <!-- Liquid Slider Ends Here -->
 			</div>
+			<div class="gutter-top-in-6"></div>
 		</section>
 		<section id="accomplishments">
+			<div class="gutter-top-in-6"></div>
+			<h1 class="hdr-primary"><span>What HomeAid Did</span></h1>
+				<div class="wrapper center-text">
+					<img src="img/shelter-emmanuel-sponsors.jpg">	
+				</div>
+				<div class="section gutter-top-in-6"></div> <!-- .gutter -->
 		</section>
 		<section id="help">
+			<div class="gutter-top-in-6"></div>
+			<h1 class="hdr-primary"><span>How You Can Help</span></h1>
+			<div class="wrapper">
+				<div class="row">
+					<div class="span4">
+						<div class="card action-card">
+							<h4>1.<span>Advocate</span></h4>
+							<p>Write to your local elected officials highlighting the need to address homeless families in Orange County. With HomeAid, it's easy and effective.</p>
+							<a href="#">Write a letter now</a>
+						</div>
+					</div>
+					<div class="span4">
+						<div class="card action-card">
+							<h4>2.<span>Participate</span></h4>
+							<p>Share the story of Emmanuel House with friends</p>
+							<ul>
+								<li><a href="#"></a>Tweet</li>
+								<li><a href="#"></a>Facebook</li>
+								<li><a href="#"></a>Google+</li>
+							</ul>
+						</div>
+					</div>
+					<div class="span4">
+						<div class="card action-card">
+							<h4>3.<span>Donate</span></h4>
+							<p>Your donation builds doorways for homeless families. Together, we can <b>end homelessness</b>.</p>
+							<a href="#">Donate Now</a>
+						</div>
+					</div>
+				</div> <!-- .row -->
+			</div>
 		</section>
 		</div>
 		<div id="footer">
@@ -140,14 +202,10 @@
 		<!-- Load Javascript -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-		<script src="js/main.js"></script>
 		<script src="js/picturefill.js"></script>
-	    <script src="js/liquid/jquery.easing.1.3.js"></script>
-
-	    <!-- Optional code for enabling touch -->
-	    <script src="js/liquid/jquery.touchSwipe.min.js"></script>
-
-	    <!-- This is Liquid Slider code. The full version (not .min) is also included in the js directory -->
-	    <script src="js/liquid/jquery.liquid-slider-custom.min.js"></script>
+		<script src="js/liquid/jquery.easing.1.3.js"></script>
+		<script src="js/liquid/jquery.touchSwipe.min.js"></script>
+		<script src="js/liquid/jquery.liquid-slider.min.js"></script>
+	    <script src="js/main.js"></script>
 	</body>
 </html>
