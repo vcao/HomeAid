@@ -46,8 +46,8 @@ i {
   color: white; }
 
 .orange {
-  background: black;
-  color: orange; }
+  background: #ff761e;
+  color: white; }
 
 .bg-black {
   background: #000; }
@@ -145,6 +145,32 @@ h1 {
 .main-container {
   max-width: 1000px;
   margin: 0 auto; }
+
+.row ul {
+  margin: 0;
+  padding: 0; }
+
+.facts ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
+.facts li {
+  list-style-type: none;
+  display: inline-block;
+  width: 30%;
+  text-align: center; }
+  .facts li:last-child {
+    text-align: left;
+    padding-left: 50px; }
+
+.facts h3 {
+  font-size: 5.5rem;
+  line-height: 3.4rem; }
+  .facts h3 span {
+    font-size: 1.5rem;
+    display: block;
+    font-weight: normal;
+    text-transform: uppercase; }
 
 /* ===================
     ALL: Color Theme
@@ -470,12 +496,17 @@ h1 {
   float: none !important; }
 
 .ocard {
+  margin: 0;
   padding: 2em 1em;
   background: white; }
 
 #overview {
   background-image: url("/img/squairy_light.png");
   padding-bottom: 2em; }
+
+img {
+  margin: 0;
+  padding: 0; }
 
 /* ==========================================================================
    Media Queries
