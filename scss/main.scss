@@ -440,8 +440,7 @@ h1 {
   margin: 1rem 0;
   padding: 0;
   vertical-align: bottom;
-  box-sizing: border-box;
-  display: inline-block;
+
   img {
     width: 100%;
   }
@@ -469,6 +468,8 @@ h1 {
 .action-card {
   height: 320px;
   padding: 1em;
+  display: inline-block;
+  box-sizing: border-box;
 
 }
 
@@ -521,7 +522,7 @@ display: table-cell;
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-   .logo {
+.logo {
     float: left;
    }
   .hero {
