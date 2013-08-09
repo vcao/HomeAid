@@ -41,3 +41,5 @@ $(function(){
         swipe:true
       });
 });
+
+$('#submenu').localScroll();
