@@ -380,35 +380,7 @@ h1 {
   list-style-type: none; }
 
 #submenu {
-  background: black;
-  color: white; }
-  #submenu ul {
-    display: table;
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 1;
-    width: 100%;
-    margin: 0;
-    padding: 0; }
-  #submenu li {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    border-right: 1px solid #222; }
-    #submenu li:last-child {
-      background: #f26522;
-      border: 0; }
-  #submenu a {
-    color: rgba(255, 255, 255, 0.5);
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-    display: block;
-    padding: 40px 0; }
-    #submenu a:hover {
-      color: white; }
+  display: none; }
 
 .nav-horiz li {
   display: table-cell; }
@@ -425,6 +397,9 @@ h1 {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+.logo {
+  float: left; }
+
 .hero {
   background: #000;
   width: 100%;
@@ -955,6 +930,38 @@ img {
     float: right;
     width: 500px;
     margin-top: 20px; }
+
+  #submenu {
+    background: black;
+    color: white;
+    display: block; }
+    #submenu ul {
+      display: table;
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 1;
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+    #submenu li {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      border-right: 1px solid #222; }
+      #submenu li:last-child {
+        background: #f26522;
+        border: 0; }
+    #submenu a {
+      color: rgba(255, 255, 255, 0.5);
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s;
+      display: block;
+      padding: 40px 0; }
+      #submenu a:hover {
+        color: white; }
 
   /* ============
       WIDE: Main

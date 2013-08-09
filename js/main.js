@@ -33,12 +33,11 @@ $(function() {
 
 $(function(){
      $('#slider-stories').liquidSlider({
-        autoSlide:true,
-        autoSlideInterval:6000,
         dynamicArrows: true,
         dynamicTabs: false,
-        dynamicArrowsGraphical: true,
         autoHeight:false,
-        minHeight: 500
+        minHeight: 500,
+        responsive:true,
+        swipe:true
       });
 });
