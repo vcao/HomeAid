@@ -362,14 +362,14 @@ h1 {
   height: 320px;
   padding: 1em; }
 
-.homecard {
+.home-card {
   background: #efefef;
   border: 1px solid #ccc;
   margin: 1rem 0;
   padding: 0; }
-  .homecard img {
+  .home-card img {
     width: 100%; }
-  .homecard h3 {
+  .home-card h3 {
     font-size: 1rem;
     font-weight: 600;
     text-align: center; }
