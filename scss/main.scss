@@ -497,40 +497,7 @@ h1 {
 }
 
 #submenu {
-  background: $bg-color;
-  color: white;
-  
-  ul {
-    display: table;
-    font-size: 15px;
-    font-weight: bold;
-    line-height: 1;
-    width: 100%;
-    @include zeroOut;
-  }
-  li {
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    border-right: 1px solid #222;
-    &:last-child {
-      background: $primary;
-      border: 0;
-    }
-  }
-  a {
-    color: rgba(255,255,255,0.5);
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
-    transition: .5s;
-    display: block;
-    padding: 40px 0;
-    &:hover {
-      color: rgba(255,255,255,1);
-    }
-  }
+  display: none;
 }
 .nav-horiz li {
 display: table-cell;
@@ -554,6 +521,9 @@ display: table-cell;
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+   .logo {
+    float: left;
+   }
   .hero {
     background:  #000;
     width: 100%;
@@ -784,6 +754,43 @@ img {
           float: right;
           width: 500px;
           margin-top: 20px;
+      }
+      #submenu {
+        background: $bg-color;
+        color: white;
+        display: block;
+        
+        ul {
+          display: table;
+          font-size: 15px;
+          font-weight: bold;
+          line-height: 1;
+          width: 100%;
+          @include zeroOut;
+        }
+        li {
+          display: table-cell;
+          vertical-align: middle;
+          text-align: center;
+          border-right: 1px solid #222;
+          &:last-child {
+            background: $primary;
+            border: 0;
+          }
+        }
+        a {
+          color: rgba(255,255,255,0.5);
+          -webkit-transition: .5s;
+          -moz-transition: .5s;
+          -ms-transition: .5s;
+          -o-transition: .5s;
+          transition: .5s;
+          display: block;
+          padding: 40px 0;
+          &:hover {
+            color: rgba(255,255,255,1);
+          }
+        }
       }
 
   /* ============
