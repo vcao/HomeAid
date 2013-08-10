@@ -35,7 +35,7 @@ $(function(){
      $('#slider-stories').liquidSlider({
         dynamicArrows: true,
         dynamicTabs: false,
-        autoHeight:false,
+        autoHeight:true,
         minHeight: 500,
         responsive:true,
         swipe:true

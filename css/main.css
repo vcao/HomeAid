@@ -71,6 +71,12 @@ select,
 textarea {
   color: #222; }
 
+video {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  display: block; }
+
 body {
   font-size: 1em;
   line-height: 1.4; }
@@ -150,6 +156,11 @@ h1 {
 #profile-feature ul {
   margin: 0;
   padding: 0; }
+  #profile-feature ul h3 {
+    line-height: 1em;
+    padding: 0;
+    margin: 0;
+    opacity: 0.0; }
 
 .large-quote {
   font-family: 'Open Sans Condensed';
@@ -405,9 +416,17 @@ h1 {
   width: 100%;
   box-sizing: border-box;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  padding: 0; }
   .hero img {
     width: 100%; }
+  .hero video {
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; }
 
 .slider {
   box-sizing: border-box;
@@ -418,6 +437,10 @@ h1 {
     list-style-type: none;
     margin: 0;
     padding: 0; }
+    .slider ul li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
   .slider h2 {
     font-size: 3rem;
     line-height: 1em;
@@ -533,8 +556,7 @@ h1 {
 
 #profile-feature {
   margin: 0;
-  padding: 0;
-  height: 250px; }
+  padding: 2rem 0; }
 
 #overview {
   background-image: url("/img/squairy_light.png");
@@ -1047,6 +1069,10 @@ img {
     width: 1600px;
     z-index: 1; }
     .feature-hero img {
+      margin: 0 auto;
+      display: block;
+      width: 100%; }
+    .feature-hero video {
       margin: 0 auto;
       display: block;
       width: 100%; }

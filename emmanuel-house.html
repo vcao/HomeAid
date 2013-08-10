@@ -66,7 +66,7 @@
 							</div>
 							<div class="wrapper">
 								<div class="aside aside-left wrapper">
-									<h2>Emmanuel House</h2>
+									<h2>H.I.S. House</h2>
 								</div>
 							</div>
 						</a>
@@ -93,8 +93,8 @@
 			<div><img src="img/shelter-emmanuel-02.jpg" alt="Jesse" width="100%"></div>
 				<div id="profile-feature" class="orange">
 					<ul class="facts">
-						<li><h3>24<span>beds</span></h1></li>
-						<li><h3>288<span>people served</span></h3></li>
+						<li><h3 class="beds">1</h3>beds</li>
+						<li><h3 class="served">1</span></h3>people served</li>
 						<li><b>Purpose:</b><br> Improve health<br>Improve life skills<br>Improve self-sufficiency</li>
 					</ul>
 				</div> <!-- .row -->
@@ -208,6 +208,24 @@
 		<script src="js/liquid/jquery.liquid-slider.min.js"></script>
 		<script src="js/jquery.scrollTo.min.js"></script>
 		<script src="js/jquery.localScroll.min.js"></script>
+		<script src="js/jquery.countTo.js"></script>
+		<script src="js/waypoints.min.js"></script>
+		<script>
+			$('#overview').waypoint(function() {
+				var fadeTime = 1500;
+			    $('.beds').animate({"opacity": 1}, fadeTime).countTo({
+				    from: 1,
+				    to: 21,
+				    speed: fadeTime
+				});
+			    $('.served').animate({"opacity": 1}, fadeTime).countTo({
+				    from: 1,
+				    to: 252,
+				    speed: fadeTime
+			 	});
+			    $('#overview').waypoint('destroy');
+			});
+		</script>
 	    <script src="js/main.js"></script>
 	</body>
 </html>
