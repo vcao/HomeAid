@@ -95,7 +95,7 @@ i { // icons
 .feature-content {
   margin: 0;
   padding: 0;
-  background-color: #000;
+  background-color: #333;
 }
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
@@ -502,12 +502,13 @@ h1 {
   }
 }
 
-.news {
+.section {
   .news-hdline span {
-    font-weight: 600;
+    font-weight: 800;
   }
   ul {
     list-style-type: none;
+    padding-left: 1rem;
   }
 }
 
@@ -529,6 +530,10 @@ display: table-cell;
   img {
     width: 100%;
   }
+}
+.subheader {
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 
@@ -801,10 +806,14 @@ img {
           &:last-child {
             background: $primary;
             border: 0;
+            color: white;
+            a {
+              color: white;
+            }
           }
         }
         a {
-          color: rgba(255,255,255,0.5);
+          color: rgba(85,85,85,1);
           -webkit-transition: .5s;
           -moz-transition: .5s;
           -ms-transition: .5s;
@@ -854,7 +863,7 @@ img {
   }
   .slider {
       ul {list-style-type:none; margin:0; padding:0;}
-      h2 {font-size:3rem; line-height:1em; @include zeroOut;}
+      h2 {font-size:4rem; line-height:1.1em; @include zeroOut;}
       h3 {font-size:1.75rem; line-height:1rem; @include zeroOut;}
 
       .aside {
@@ -919,7 +928,7 @@ img {
     background-color: transparent !important;
     z-index: 5;
     position: relative;
-    padding-top:50px;
+    padding-top:60px;
     h2 {
       font-size: 2.5rem;
       font-weight: 300;
@@ -927,6 +936,9 @@ img {
       span {
         color: $secondary;
       }
+    }
+    .subheader {
+      margin-top: 15px;
     }
   }
 

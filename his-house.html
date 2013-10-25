@@ -55,10 +55,11 @@
 						<a href="#">
 							<div class="hero">
 								<div class="figure">
-									<video preload="auto" autoplay="true" loop="true">
-									  <source src="video/travisbg.mp4" type="video/mp4">
+									<video preload="auto" autoplay="true" loop="true" poster="img/shelter-hishouse2-travis.jpg">
+									  <source src="video/travisbg.m4v" type="video/mp4">
 									  <source src="video/travisbg.webm" type="video/webm">
 									  <source src="video/travisbg.ogg" type="video/ogg">
+									  <img src="img/shelter-hishouse2-travis.jpg" width=100%>
 									Your browser does not support the video tag.
 									</video>
 								</div>
@@ -229,6 +230,17 @@
 			    $('#overview').waypoint('destroy');
 			});
 		</script>
-	    <script src="js/main.js"></script>
+		<script>
+		$(function(){
+		     $('#slider-stories').liquidSlider({
+		        dynamicArrows: true,
+		        dynamicTabs: false,
+		        autoHeight:true,
+		        minHeight: 300,
+		        responsive:true,
+		        swipe:true
+		      });
+			});
+		</script>
 	</body>
 </html>

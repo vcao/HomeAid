@@ -56,7 +56,7 @@ i {
 .feature-content {
   margin: 0;
   padding: 0;
-  background-color: #000; }
+  background-color: #333; }
 
 /* ==========================================================================
    HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
@@ -385,10 +385,11 @@ h1 {
     font-weight: 600;
     text-align: center; }
 
-.news .news-hdline span {
-  font-weight: 600; }
-.news ul {
-  list-style-type: none; }
+.section .news-hdline span {
+  font-weight: 800; }
+.section ul {
+  list-style-type: none;
+  padding-left: 1rem; }
 
 #submenu {
   display: none; }
@@ -404,6 +405,10 @@ h1 {
 
 .feature-hero img {
   width: 100%; }
+
+.subheader {
+  font-size: 1.25rem;
+  font-weight: 300; }
 
 /* ==========================================================================
    Author's custom styles
@@ -603,7 +608,8 @@ img {
   /* @group grid */
   .row .span1, .row .span2, .row .span3, .row .span4, .row .span5, .row .span6, .row .span7, .row .span8, .row .span9, .row .span10, .row .span11, .row .span12 {
     float: left;
-    display: inline-block !important; }
+    display: inline-block !important;
+    vertical-align: top; }
 
   .row .span1 {
     width: 6.5%; }
@@ -972,9 +978,12 @@ img {
       border-right: 1px solid #222; }
       #submenu li:last-child {
         background: #f26522;
-        border: 0; }
+        border: 0;
+        color: white; }
+        #submenu li:last-child a {
+          color: white; }
     #submenu a {
-      color: rgba(255, 255, 255, 0.5);
+      color: #555555;
       -webkit-transition: .5s;
       -moz-transition: .5s;
       -ms-transition: .5s;
@@ -1020,8 +1029,8 @@ img {
     margin: 0;
     padding: 0; }
   .slider h2 {
-    font-size: 3rem;
-    line-height: 1em;
+    font-size: 4rem;
+    line-height: 1.1em;
     margin: 0;
     padding: 0; }
   .slider h3 {
@@ -1081,12 +1090,14 @@ img {
     background-color: transparent !important;
     z-index: 5;
     position: relative;
-    padding-top: 50px; }
+    padding-top: 60px; }
     .feature-content h2 {
       font-size: 2.5rem;
       font-weight: 300; }
       .feature-content h2 span {
         color: orange; }
+    .feature-content .subheader {
+      margin-top: 15px; }
 
   .gutter-horiz-in {
     padding-left: 1.53061225%;

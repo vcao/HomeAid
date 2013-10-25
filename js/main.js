@@ -36,7 +36,7 @@ $(function(){
         dynamicArrows: true,
         dynamicTabs: false,
         autoHeight:true,
-        minHeight: 500,
+        minHeight: 300,
         responsive:true,
         swipe:true
       });
