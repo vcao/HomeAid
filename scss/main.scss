@@ -7,26 +7,11 @@ $secondary: orange;
 $bg-color: #000;
 $link: #16a3d7;
 
-@mixin zeroOut {
-    margin: 0;
-    padding: 0;
-}
-
-@mixin borderBox {
-  box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-
-@mixin defaultRadius {
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-}
-
-@mixin textShadow {
-  text-shadow: 2px 1px 1px rgba(0,0,0,0.5);
-}
+/* ==========================================================================
+   MIXINS
+   ========================================================================== */
+@import 'mixins';
+@import 'nav';
 
 /* ==========================================================================
    TYPE
