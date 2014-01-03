@@ -1,0 +1,176 @@
+.header-container {
+    color: white;
+    background: $bg-color;
+    @include zeroOut;
+}
+
+
+/* ==============
+    MOBILE: Menu
+   ============== */
+#header {
+  display: none;
+}
+
+#mobile-header {
+  background: #000;
+  margin: 0;
+  padding: 0;
+
+  #toggle {
+      margin-top: 30px;
+      margin-right: 30px;
+      display: inline-block;
+      font-size: 2rem;
+      float: right;
+
+      a {color: #fff; &:hover {text-decoration:none;}}
+    }
+
+  #mobile-menu {
+    display: none;
+    ul {
+      display: block;
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 0;
+      width: 100%;
+
+      li {
+        background-color: $primary;
+        display: inline-block;
+        float: left;
+        margin: 0 auto;
+        width: 50%;
+        text-align: center;
+
+        &:hover {
+          background-color: $secondary;
+        }
+        a {
+          color: white;
+          text-decoration: none;
+          display: block;
+          width: 100%;
+          padding: 1em 0;
+        }
+      }
+    }
+  }
+
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+
+    li {
+
+    }
+
+    a {
+        display: block;
+        padding: 15px 0;
+
+        font-weight: bold;
+        font-size: 1.15rem;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
+#menu a, #menu a:visited {
+    color: white;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+    }
+}
+
+.span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
+    display:block;
+    @include borderBox;
+    float: none !important;
+}
+
+@media only screen and (min-width: 35em) {
+    /* ============
+        WIDE: Menu
+       ============ */
+    #mobile-header {
+      display: none;
+    }
+
+    .title {
+        float: none;
+    }
+
+    .logo { 
+      float: left;
+    }
+    #header {
+      display: block;
+    }
+    #menu {
+        float: right;
+        width: 500px;
+        margin-top: 20px;
+
+        li {
+            display: inline-block;
+        }
+        a {
+            padding: 0 15px;
+        }
+    }
+
+    #submenu {
+      background: $bg-color;
+      color: white;
+      display: block;
+      
+      ul {
+        display: table;
+        font-size: 15px;
+        font-weight: bold;
+        line-height: 1;
+        width: 100%;
+        @include zeroOut;
+      }
+      li {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        border-right: 1px solid #222;
+        &:last-child {
+          background: $primary;
+          border: 0;
+          color: white;
+          a {
+            color: white;
+          }
+        }
+      }
+      a {
+        color: rgba(85,85,85,1);
+        -webkit-transition: .5s;
+        -moz-transition: .5s;
+        -ms-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+        display: block;
+        padding: 40px 0;
+        &:hover {
+          color: rgba(255,255,255,1);
+        }
+      }
+    } // submenu
+} // media query
