@@ -792,6 +792,9 @@ button {
   margin: 0;
   padding: 0; }
 
+.nav-fixed {
+  position: fixed; }
+
 /* ==============
     MOBILE: Menu
    ============== */
@@ -839,6 +842,9 @@ button {
           display: block;
           width: 100%;
           padding: 1em 0; }
+
+#submenu {
+  display: none; }
 
 .span1, .span2, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10, .span11, .span12 {
   display: block;
@@ -916,7 +922,44 @@ button {
             #menu li:hover ul li a:hover, #menu li:hover ul li a:visited {
               color: white; }
             #menu li:hover ul li a:hover {
-              text-decoration: underline; } }
+              text-decoration: underline; }
+
+  #submenu {
+    background: black;
+    color: white;
+    display: block !important;
+    z-index: 9999;
+    width: 100%; }
+    #submenu ul {
+      display: table;
+      font-size: 15px;
+      font-weight: bold;
+      line-height: 1;
+      width: 100%;
+      margin: 0;
+      padding: 0; }
+    #submenu li {
+      display: table-cell;
+      vertical-align: middle;
+      text-align: center;
+      border-right: 1px solid #222; }
+      #submenu li:last-child {
+        background: #f26500;
+        border: 0;
+        color: white; }
+        #submenu li:last-child a {
+          color: white; }
+    #submenu a {
+      color: #555555;
+      -webkit-transition: .5s;
+      -moz-transition: .5s;
+      -ms-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s;
+      display: block;
+      padding: 40px 0; }
+      #submenu a:hover {
+        color: white; } }
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
    ========================================================================== */
