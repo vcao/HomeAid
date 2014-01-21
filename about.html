@@ -13,6 +13,7 @@
 		<link rel="stylesheet" href="css/normalize.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="font/fontello.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	</head>
 	<body>
@@ -21,29 +22,39 @@
 		<![endif]-->
 		<div class="header-container">
 			<div id="header" class="wrapper clearfix">
-				<h1 class="logo"><a href="/"><img src="img/ha-logo-color.png"></a></h1>
-				<div id="menu">
+				<h1 class="logo"><a href="/"><img src="img/ha-logo-color.gif"></a></h1>
+					<div class="wrapper">
+						<nav id="menu">
+							<li><a href="/about.html">About</a>
+								<ul>
+									<li><a href="#">History</a></li>
+									<li><a href="#">Leadership</a></li>
+									<li><a href="#">Financials</a></li>
+									<li><a href="#">Contact Us</a></li>
+								</ul>
+							</li>
+							<li><a href="/work.html">Our Work</a></li>
+							<li><a href="#">Get Involved</a></li>
+							<li><a href="#">Donate</a></li>
+						</ul>
+					</div>
+			</div>
+			<div id="mobile-header" class="wrapper">
+				<div class="wrapper clearfix">
+						<h1 class="logo"><a href="/"><img src="img/ha-logo-color.gif"></a></h1>
+						<div id="toggle"><a href="#"><i class="fa fa-bars fa-lg"></i></a></div>
+				</div>
+				<div id="mobile-menu" class="clearfix">
 					<ul>
-						<li><a href="/about.html">About</a></li>
+						<li>
+							<a href="/about.html">About</a>
+							
+						</li>
 						<li><a href="/work.html">Our Work</a></li>
 						<li><a href="#">Get Involved</a></li>
 						<li><a href="#">Donate</a></li>
 					</ul>
 				</div>
-			</div>
-			<div id="mobile-header" class="wrapper">
-				<div class="wrapper clearfix">
-						<h1 class="logo"><a href="/"><img src="img/ha-logo-color.png"></a></h1>
-						<div id="toggle"><a href="#"><img src="img/icon-menu.png" alt="menu"></a></div>
-				</div>
-						<div id="mobile-menu" class="clearfix">
-							<ul>
-								<li><a href="/about.html">About</a></li>
-								<li><a href="/work.html">Our Work</a></li>
-								<li><a href="#">Get Involved</a></li>
-								<li><a href="#">Donate</a></li>
-							</ul>
-						</div>
 			</div>
 		</div>
 		<div class="feature">
@@ -75,7 +86,13 @@
 				<div class="span10 pull-right">
 					<div class="lead">				
 						<h2>Our Mission</h2>
-						<p>End Homelessness by Building Doorways for Orange County’s Homeless.</p>
+						<p>HomeAid’s vision is to end homelessness through advocacy, development and service.  Charged with the mission to build new lives for homeless families and individuals through housing and community outreach, HomeAid has been working to solve the social crisis of homelessness for 25 years.</p>
+
+						<p>Many people believe that the homeless are on the street due to choice, but the real truth is most are homeless due to circumstances such as job loss, illness, abandonment, abuse or the financial inability to make ends meet.</p>
+
+						<p>Over 12,700 people find themselves homeless in Orange County every year and unbelievably, <b>20% of those are children</b>.  In the past 25 years, 50 shelters have been developed that have housed more than 50,000 homeless men, women and children.  Join us to end this issue and help HomeAid develop shelter, reach into the community in service and advocate for those who experience homelessness.</p>
+
+						<button id="donate">Donate</button>
 					</div>
 				</div>
 				<div class="span2">
@@ -85,7 +102,6 @@
 							<li><a href="#">Overview</a></li>
 							<li><a href="#">History</a></li>
 							<li><a href="#">Leadership</a></li>
-							<li><a href="#">Staff</a></li>
 							<li><a href="#">Financials</a></li>
 							<li><a href="#">Contact Us</a></li>
 						</ul>

@@ -1,2 +1,108 @@
+/* ==========================================================================
+   TYPE
+   ========================================================================== */
+
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700);
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700);
+
+body {
+    font: 16px/26px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.large-quote {
+  font-family: 'Open Sans Condensed';
+  font-weight: 700;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+  color: #ff914b;
+  padding: 1em;
+  text-align: center;
+  text-transform: uppercase;
+  quotes: "“" "”" "‘" "’";
+  display: block;
+
+  &:before {
+    font-size: 2rem;
+    font-family: Georgia;
+    color: #ccc;
+    content: open-quote;
+  }
+  &:after {
+    font-size: 2rem;
+    font-family: Georgia;
+    color: #ccc;
+    content: close-quote;
+  }
+}
+
+.hdr-primary {
+  font-size: 3.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hdr-secondry {
+  font-size: 2.0rem;
+
+}
+
+.lead {
+  padding: 0 1em;
+  max-width: 650px;
+
+  h2 {
+    line-height: 1.15em;
+    @include zeroOut;
+  }
+
+  p {
+    text-align: justify;
+    line-height: 1.5em;
+  }
+}
+
+.about-us-hdr {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  
+  span {
+    font-family: 'Open Sans Condensed';
+    font-size: 5rem;
+    line-height: 1em;
+    font-weight: 700;
+    letter-spacing: -.15rem;
+    display: block;
+  }
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.orange {
+  background: #ff761e;
+  color: white;
+}
+
+.bg-black {
+  background: #000;
+}
+.feature-content {
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}

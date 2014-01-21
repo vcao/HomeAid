@@ -12,7 +12,7 @@
 
 		<link rel="stylesheet" href="css/normalize.min.css">
 		<link rel="stylesheet" href="css/main.css">
-
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 		<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	</head>
 	<body>
@@ -23,8 +23,15 @@
 			<div id="header" class="wrapper clearfix">
 				<h1 class="logo"><a href="/"><img src="img/ha-logo-color.gif"></a></h1>
 					<div class="wrapper">
-						<ul id="menu">
-							<li><a href="/about.html">About</a></li>
+						<nav id="menu">
+							<li><a href="/about.html">About</a>
+								<ul>
+									<li><a href="#">History</a></li>
+									<li><a href="#">Leadership</a></li>
+									<li><a href="#">Financials</a></li>
+									<li><a href="#">Contact Us</a></li>
+								</ul>
+							</li>
 							<li><a href="/work.html">Our Work</a></li>
 							<li><a href="#">Get Involved</a></li>
 							<li><a href="#">Donate</a></li>
@@ -33,12 +40,15 @@
 			</div>
 			<div id="mobile-header" class="wrapper">
 				<div class="wrapper clearfix">
-						<h1 class="logo"><a href="/"><img src="img/ha-logo-color.png"></a></h1>
-						<div id="toggle"><a href="#"><img src="img/icon-menu.png" alt="menu"></a></div>
+						<h1 class="logo"><a href="/"><img src="img/ha-logo-color.gif"></a></h1>
+						<div id="toggle"><a href="#"><i class="fa fa-bars fa-lg"></i></a></div>
 				</div>
 				<div id="mobile-menu" class="clearfix">
 					<ul>
-						<li><a href="/about.html">About</a></li>
+						<li>
+							<a href="/about.html">About</a>
+							
+						</li>
 						<li><a href="/work.html">Our Work</a></li>
 						<li><a href="#">Get Involved</a></li>
 						<li><a href="#">Donate</a></li>
@@ -47,30 +57,12 @@
 			</div>
 		</div>
 		<div id="content">
-		<div class="slider">
-			<ul class="items">
-				<li class="item current">
-					<a href="#">
-						<div class="hero">
-							<div class="figure">
-								<div data-picture data-alt="A homeless child">
-									<div data-src="img/hero-02-full-sophia.jpg"></div>
-									<div data-src="img/hero-02-mobile-sophia.jpg" data-media="(max-width:640px) "></div>
-									<noscript>
-									<img alt="" class="centered" data-attribution=" " src="img/hero-02-mobile-sophia.jpg"/>
-									</noscript>
-								</div>
-							</div>
-						</div>
-						<div class="wrapper">
-							<div class="aside aside-left">
-								<h2>For Sophia</h2>
-								<h3>We can end homelessness</h3>
-							</div>
-						</div>
-					</a>
-				</li>
-			</ul>
+		<div class="banner">
+		    <ul>
+		        <li><img src="img/hero-01-full-mother.jpg" alt=""></li>
+		        <li><img src="img/hero-02-full-sophia.jpg"></li>
+		        <li><img src="img/shelter-emmanuel-02.jpg" height="600" width="1600" alt=""></li>
+		    </ul>
 		</div>
 
 		<div class="section">
@@ -82,7 +74,7 @@
 					<div class="home-card">
 						<img src="/img/home-domestic.jpg">
 						<div class="lead">
-							<h3>Domestic Violence</h3>
+							<h3>Victims</h3>
 						</div>
 					</div>
 				</div>
@@ -90,7 +82,7 @@
 				<div class="home-card">
 						<img src="/img/home-families.jpg">
 						<div class="lead">
-							<h3>Homeless Families</h3>
+							<h3>Families</h3>
 						</div>
 					</div>
 				</div>
@@ -135,7 +127,6 @@
 		<div id="footer">
 				<div class="footer-container">
 					<div class="wrapper clearfix">
-						<div class="logo-footer"><img src="img/ha-logo-black.png"></div>
 						<div class="pull-left">
 						<ul class="nav clearfix">
 							<li><a href="#">Blog</a></li>
@@ -157,9 +148,10 @@
 				</div>
 		</div>
 		<!-- Load Javascript -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="//code.jquery.com/jquery-latest.min.js"></script>
 		<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-		<script src="js/main.js"></script>
+		<script src="//unslider.com/unslider.min.js"></script>
 		<script src="js/picturefill.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>

@@ -1,7 +1,13 @@
 $(document).ready(function() {
 	$("#toggle").click(function() {
-		$("#mobile-menu").slideToggle();
+		$("#mobile-menu").slideToggle('fast');
 	});
+  $('.banner').unslider({
+        fluid: true,
+        dots: true,
+        speed: 500,
+        delay: 10000
+      });
 });
 
 // jQuery(function(){
@@ -43,3 +49,4 @@ $(function(){
 });
 
 $('#submenu').localScroll();
+
