@@ -67,8 +67,7 @@
 * max width instead
 *******************************************************/
 .ls-wrapper .liquid-slider {
-  background: #f2f2f2;
-  width: 1030px;
+  width: 1000px;
   /* Do not edit below this line */
   float: left;
   overflow: hidden;

@@ -1,0 +1,43 @@
+#volunteer {
+  input {
+    display: block;
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+
+    &:focus {
+      box-shadow: 0;
+      border: 1px solid $secondary;
+      outline: none;
+    }
+
+  
+  }
+
+  label {
+    font-size: 0.85rem;
+    padding: 5px;
+    padding-left: 0;
+    font-weight: bold;
+    display: block;
+  }
+
+  textarea {
+    &:focus {
+      box-shadow: 0;
+      border: 1px solid $secondary;
+      outline: none;
+    }
+  }
+
+  .v-checkboxes {
+    input[type="checkbox"] {
+      display: inline-block;
+    }
+    label {
+      display: inline-block;
+    }
+  }
+}

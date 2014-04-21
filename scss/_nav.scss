@@ -6,6 +6,7 @@
 
 .nav-fixed {
   position: fixed;
+  
 }
 /* ==============
     MOBILE: Menu
@@ -19,7 +20,7 @@
 }
 
 #mobile-header {
-  background: #000;
+  background: #fff;
   margin: 0;
   padding: 0;
 
@@ -30,7 +31,7 @@
       font-size: 2rem;
       float: right;
 
-      a {color: #fff; &:hover {text-decoration:none;}}
+      a {color: $primary; &:hover {text-decoration:none;}}
     }
 
   #mobile-menu {
@@ -106,24 +107,35 @@
         display: inline-block;
         list-style: none !important;;
         text-transform: uppercase;
+        font-size: 1.10rem;
         a, a:visited, a:hover {
-            -webkit-box-sizing: border-box;
-            -moz-box-sizing: border-box;
-            box-sizing: border-box;
-            display: inline-block;
-            padding: 10px 20px;
-            color: $primary;
-            font-weight: 700;
-            text-decoration: none;
+          color: $primary;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          display: inline-block;
+          padding: 10px 13px;
+          font-weight: 700;
+          text-decoration: none;
           }
           &:hover { //first level hober
             background: #333;
           }
+          &:last-child {
+            background: none;
+          }
           ul { //second level natural state
+            color: white;
             display: none;
             opacity: 0;
+            li {
+              a {
+                color: white;
+              }
+            }
             li:hover { // second level item
               background: #333;
+              color: white;
             }
           }
           &:hover ul { // second level list

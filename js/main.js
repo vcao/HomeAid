@@ -3,6 +3,52 @@ $(document).ready(function() {
 		$("#mobile-menu").slideToggle('fast');
 	});
 
+  $('#get-involved a').click(function() {
+    var $target = $(this).attr('href');
+    $('#gi-options').find('.options').not($target).slideUp('fast');
+    $($target).slideDown('fast');
+  });
+
+  // Load dialog on click
+  $('#giving-options #checks').click(function () {
+    $('.donate-options').hide();
+    $('#checks-content').show();
+    $('#basic-modal-content').modal();
+    return false;
+  });
+  $('#giving-options #workplace').click(function () {
+    $('.donate-options').hide();
+    $('#workplace-content').show();
+    $('#basic-modal-content').modal();
+    return false;
+  });
+  $('#giving-options #stock').click(function () {
+    $('.donate-options').hide();
+    $('#stock-content').show();
+    $('#basic-modal-content').modal();
+    return false;
+  });
+  $('#giving-options #corporate').click(function () {
+    $('.donate-options').hide();
+    $('#corp-content').show();
+    $('#basic-modal-content').modal();
+    return false;
+  });
+  $('#simplemodal-overlay').click(function () {
+    $('#basic-modal-content').hide();
+    return false;
+  });
+ 
+ $('#slider-shelters').liquidSlider({
+    dynamicArrows: true,
+    hideSideArrows: false,
+    dynamicTabs: false,
+    autoHeight:true,
+    minHeight: 300,
+    responsive:true,
+    swipe:true
+  });
+
 });
 
 function sticky_relocate() {
@@ -31,6 +77,16 @@ $(function(){
       });
 });
 
+$(function(){
+     $('#slider-homebuild').liquidSlider({
+        dynamicArrows: true,
+        dynamicTabs: false,
+        autoHeight:true,
+        minHeight: 300,
+        responsive:true,
+        swipe:true
+      });
+});
 
 
 $(function() {

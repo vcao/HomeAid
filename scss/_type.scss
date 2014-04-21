@@ -9,9 +9,12 @@
 body {
     font: 16px/26px;
     font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #000;
 }
 h1, h2, h3 {
     font-family: 'Open Sans', sans-serif;
+    display: block;
+    clear: both;
 }
 
 h1 {
@@ -61,7 +64,7 @@ h1 {
   max-width: 650px;
 
   h2 {
-    line-height: 1.15em;
+    line-height: 1.5em;
     @include zeroOut;
   }
 
@@ -93,9 +96,17 @@ h1 {
   color: white;
 }
 
+.orange-text {
+  color: $primary;
+}
+
 .orange {
-  background: #ff761e;
+  background: $primary;
   color: white;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 .bg-black {
@@ -106,3 +117,33 @@ h1 {
   padding: 0;
   background-color: #333;
 }
+
+.hdr-box {
+  
+  @include breakpoint($bp) {
+    margin-top: 150px;    
+  }
+  
+  font-size: 4rem;
+  color: white;
+  background: rgba(0,0,0,0);
+  text-align: center;
+  margin: 0;
+  padding: 1rem;
+}
+
+// LINKS
+a {
+  color: $secondary;
+  text-decoration: none;
+  -webkit-transition: all .30s ease-in-out;
+  -moz-transition: all .30s ease-in-out;
+  -ms-transition: all .30s ease-in-out;
+  -o-transition: all .30s ease-in-out;
+  transition: all .30s ease-in-out;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+

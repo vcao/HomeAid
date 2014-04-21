@@ -1,0 +1,4449 @@
+{
+"CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
+"creatorBuild": "16903",
+"files": {
+	"\/404.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/404.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/about.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/about.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/carekit.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/carekit.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/coffees\/test.coffee": {
+		"createSourceMap": 0,
+		"fileType": 32,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/coffees\/test.coffee",
+		"minifyOutput": 1,
+		"outputAbbreviatedPath": "\/coffees\/test.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1
+		},
+	"\/contactus.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/contactus.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/animate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/fontello-codes.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/fontello-codes.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/fontello-embedded.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/fontello-embedded.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/fontello.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/fontello.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/liquid-slider.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/liquid-slider.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/main.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/main.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/normalize.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/normalize.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/normalize.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/normalize.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/development.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/development.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/donate.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/donate.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/emmanuel-house.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/emmanuel-house.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/financials.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/financials.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/gala.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/gala.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/gallery.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/gallery.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/getinvolved.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/getinvolved.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/his-house.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/his-house.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/history.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/history.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/img\/16x9-child-window.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 285313,
+		"inputAbbreviatedPath": "\/img\/16x9-child-window.jpg",
+		"outputAbbreviatedPath": "\/img\/16x9-child-window.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/16x9-feet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 418277,
+		"inputAbbreviatedPath": "\/img\/16x9-feet.jpg",
+		"outputAbbreviatedPath": "\/img\/16x9-feet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/16x9-jenny.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126287,
+		"inputAbbreviatedPath": "\/img\/16x9-jenny.jpg",
+		"outputAbbreviatedPath": "\/img\/16x9-jenny.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/96x41-child-window.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 260257,
+		"inputAbbreviatedPath": "\/img\/96x41-child-window.jpg",
+		"outputAbbreviatedPath": "\/img\/96x41-child-window.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/96x41-feet.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 400812,
+		"inputAbbreviatedPath": "\/img\/96x41-feet.jpg",
+		"outputAbbreviatedPath": "\/img\/96x41-feet.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/96x41-jenny.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106845,
+		"inputAbbreviatedPath": "\/img\/96x41-jenny.jpg",
+		"outputAbbreviatedPath": "\/img\/96x41-jenny.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/aboutus-02-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86093,
+		"inputAbbreviatedPath": "\/img\/aboutus-02-full.jpg",
+		"outputAbbreviatedPath": "\/img\/aboutus-02-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/aboutus-02-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50469,
+		"inputAbbreviatedPath": "\/img\/aboutus-02-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/aboutus-02-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/arrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2160,
+		"inputAbbreviatedPath": "\/img\/arrow.png",
+		"outputAbbreviatedPath": "\/img\/arrow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/bg-shadow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20775,
+		"inputAbbreviatedPath": "\/img\/bg-shadow.png",
+		"outputAbbreviatedPath": "\/img\/bg-shadow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-Brent-Little.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14408,
+		"inputAbbreviatedPath": "\/img\/board\/Board-Brent-Little.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-Brent-Little.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-Dave-Prolo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56123,
+		"inputAbbreviatedPath": "\/img\/board\/Board-Dave-Prolo.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-Dave-Prolo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-Eric-Higuchi.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46891,
+		"inputAbbreviatedPath": "\/img\/board\/Board-Eric-Higuchi.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-Eric-Higuchi.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-Eric-Paulsen.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 62299,
+		"inputAbbreviatedPath": "\/img\/board\/Board-Eric-Paulsen.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-Eric-Paulsen.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-John-Baayoun.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 69110,
+		"inputAbbreviatedPath": "\/img\/board\/Board-John-Baayoun.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-John-Baayoun.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-John-Vander-Velde.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18386,
+		"inputAbbreviatedPath": "\/img\/board\/Board-John-Vander-Velde.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-John-Vander-Velde.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-Megan-Eltringham.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82446,
+		"inputAbbreviatedPath": "\/img\/board\/Board-Megan-Eltringham.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-Megan-Eltringham.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-Michael-Schlesinger.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79374,
+		"inputAbbreviatedPath": "\/img\/board\/Board-Michael-Schlesinger.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-Michael-Schlesinger.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-Michelle-Pate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56142,
+		"inputAbbreviatedPath": "\/img\/board\/Board-Michelle-Pate.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-Michelle-Pate.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-Nick-Slevin.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50453,
+		"inputAbbreviatedPath": "\/img\/board\/Board-Nick-Slevin.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-Nick-Slevin.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-Tara-Morenc.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94701,
+		"inputAbbreviatedPath": "\/img\/board\/Board-Tara-Morenc.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-Tara-Morenc.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Board-Thomas-Steele.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72807,
+		"inputAbbreviatedPath": "\/img\/board\/Board-Thomas-Steele.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Board-Thomas-Steele.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/hero-board-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 87089,
+		"inputAbbreviatedPath": "\/img\/board\/hero-board-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/hero-board-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/hero-board.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 269731,
+		"inputAbbreviatedPath": "\/img\/board\/hero-board.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/hero-board.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/President-Bill-Balfour.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64022,
+		"inputAbbreviatedPath": "\/img\/board\/President-Bill-Balfour.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/President-Bill-Balfour.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Staff-Anita-Rodriguez.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30784,
+		"inputAbbreviatedPath": "\/img\/board\/Staff-Anita-Rodriguez.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Staff-Anita-Rodriguez.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Staff-Gina-Scott.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29754,
+		"inputAbbreviatedPath": "\/img\/board\/Staff-Gina-Scott.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Staff-Gina-Scott.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Staff-Julia-Ung.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16488,
+		"inputAbbreviatedPath": "\/img\/board\/Staff-Julia-Ung.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Staff-Julia-Ung.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Staff-None.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5625,
+		"inputAbbreviatedPath": "\/img\/board\/Staff-None.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Staff-None.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/Staff-Scott-Larson.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14009,
+		"inputAbbreviatedPath": "\/img\/board\/Staff-Scott-Larson.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/Staff-Scott-Larson.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/VP-John-Racunas.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70605,
+		"inputAbbreviatedPath": "\/img\/board\/VP-John-Racunas.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/VP-John-Racunas.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/VP-Michael-Schrock.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70917,
+		"inputAbbreviatedPath": "\/img\/board\/VP-Michael-Schrock.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/VP-Michael-Schrock.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/VP-Robert-Grimm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51624,
+		"inputAbbreviatedPath": "\/img\/board\/VP-Robert-Grimm.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/VP-Robert-Grimm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/VP-Sonia-Lister.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60308,
+		"inputAbbreviatedPath": "\/img\/board\/VP-Sonia-Lister.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/VP-Sonia-Lister.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/VP-Tim-Paone.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5625,
+		"inputAbbreviatedPath": "\/img\/board\/VP-Tim-Paone.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/VP-Tim-Paone.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/board\/VP-Tom-Doyle.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56524,
+		"inputAbbreviatedPath": "\/img\/board\/VP-Tom-Doyle.jpg",
+		"outputAbbreviatedPath": "\/img\/board\/VP-Tom-Doyle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/contact-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 197162,
+		"inputAbbreviatedPath": "\/img\/contact-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/contact-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/donate-child-window.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 279369,
+		"inputAbbreviatedPath": "\/img\/donate-child-window.jpg",
+		"outputAbbreviatedPath": "\/img\/donate-child-window.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/donate-girl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174351,
+		"inputAbbreviatedPath": "\/img\/donate-girl.jpg",
+		"outputAbbreviatedPath": "\/img\/donate-girl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/gala-hero.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.48361e+06,
+		"inputAbbreviatedPath": "\/img\/gala-hero.png",
+		"outputAbbreviatedPath": "\/img\/gala-hero.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/gi-capitol.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83846,
+		"inputAbbreviatedPath": "\/img\/gi-capitol.jpg",
+		"outputAbbreviatedPath": "\/img\/gi-capitol.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/gi-carekit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13243,
+		"inputAbbreviatedPath": "\/img\/gi-carekit.jpg",
+		"outputAbbreviatedPath": "\/img\/gi-carekit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/gi-events.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37109,
+		"inputAbbreviatedPath": "\/img\/gi-events.jpg",
+		"outputAbbreviatedPath": "\/img\/gi-events.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/gi-intern.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64749,
+		"inputAbbreviatedPath": "\/img\/gi-intern.jpg",
+		"outputAbbreviatedPath": "\/img\/gi-intern.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/gi-volunteer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30967,
+		"inputAbbreviatedPath": "\/img\/gi-volunteer.jpg",
+		"outputAbbreviatedPath": "\/img\/gi-volunteer.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/glide-arrows.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2059,
+		"inputAbbreviatedPath": "\/img\/glide-arrows.png",
+		"outputAbbreviatedPath": "\/img\/glide-arrows.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ha-logo-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6011,
+		"inputAbbreviatedPath": "\/img\/ha-logo-black.png",
+		"outputAbbreviatedPath": "\/img\/ha-logo-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ha-logo-color.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6281,
+		"inputAbbreviatedPath": "\/img\/ha-logo-color.png",
+		"outputAbbreviatedPath": "\/img\/ha-logo-color.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ha-logo-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7337,
+		"inputAbbreviatedPath": "\/img\/ha-logo-white.png",
+		"outputAbbreviatedPath": "\/img\/ha-logo-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-01-full-mother.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 59074,
+		"inputAbbreviatedPath": "\/img\/hero-01-full-mother.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-01-full-mother.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-01-mobile-mother.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34930,
+		"inputAbbreviatedPath": "\/img\/hero-01-mobile-mother.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-01-mobile-mother.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-02-full-sophia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 79484,
+		"inputAbbreviatedPath": "\/img\/hero-02-full-sophia.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-02-full-sophia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-02-mobile-sophia.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49466,
+		"inputAbbreviatedPath": "\/img\/hero-02-mobile-sophia.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-02-mobile-sophia.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-carekit-8x3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99658,
+		"inputAbbreviatedPath": "\/img\/hero-carekit-8x3.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-carekit-8x3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-carekit-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 43028,
+		"inputAbbreviatedPath": "\/img\/hero-carekit-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-carekit-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-carekit.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95734,
+		"inputAbbreviatedPath": "\/img\/hero-carekit.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-carekit.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-essentials-8x3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 72773,
+		"inputAbbreviatedPath": "\/img\/hero-essentials-8x3.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-essentials-8x3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-essentials-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 66806,
+		"inputAbbreviatedPath": "\/img\/hero-essentials-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-essentials-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-essentials.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126811,
+		"inputAbbreviatedPath": "\/img\/hero-essentials.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-essentials.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-financials-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 85419,
+		"inputAbbreviatedPath": "\/img\/hero-financials-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-financials-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-financials.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 236989,
+		"inputAbbreviatedPath": "\/img\/hero-financials.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-financials.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-full-child-window.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 243707,
+		"inputAbbreviatedPath": "\/img\/hero-full-child-window.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-full-child-window.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-HomeAid-Cares.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 95703,
+		"inputAbbreviatedPath": "\/img\/hero-HomeAid-Cares.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-HomeAid-Cares.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-jack-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38748,
+		"inputAbbreviatedPath": "\/img\/hero-jack-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-jack-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-jack.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64608,
+		"inputAbbreviatedPath": "\/img\/hero-jack.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-jack.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-ourwork-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 118872,
+		"inputAbbreviatedPath": "\/img\/hero-ourwork-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-ourwork-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hero-ourwork.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127955,
+		"inputAbbreviatedPath": "\/img\/hero-ourwork.jpg",
+		"outputAbbreviatedPath": "\/img\/hero-ourwork.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/history-hero-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 106862,
+		"inputAbbreviatedPath": "\/img\/history-hero-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/history-hero-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/history-hero.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 329477,
+		"inputAbbreviatedPath": "\/img\/history-hero.jpg",
+		"outputAbbreviatedPath": "\/img\/history-hero.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/history-timeline.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152309,
+		"inputAbbreviatedPath": "\/img\/history-timeline.jpg",
+		"outputAbbreviatedPath": "\/img\/history-timeline.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home-child.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16449,
+		"inputAbbreviatedPath": "\/img\/home-child.jpg",
+		"outputAbbreviatedPath": "\/img\/home-child.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home-domestic.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10734,
+		"inputAbbreviatedPath": "\/img\/home-domestic.jpg",
+		"outputAbbreviatedPath": "\/img\/home-domestic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home-families.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 16644,
+		"inputAbbreviatedPath": "\/img\/home-families.jpg",
+		"outputAbbreviatedPath": "\/img\/home-families.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home-veterans.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19163,
+		"inputAbbreviatedPath": "\/img\/home-veterans.jpg",
+		"outputAbbreviatedPath": "\/img\/home-veterans.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-menu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3244,
+		"inputAbbreviatedPath": "\/img\/icon-menu.png",
+		"outputAbbreviatedPath": "\/img\/icon-menu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-menu02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3413,
+		"inputAbbreviatedPath": "\/img\/icon-menu02.png",
+		"outputAbbreviatedPath": "\/img\/icon-menu02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/logo-homeaidoc25.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7294,
+		"inputAbbreviatedPath": "\/img\/logo-homeaidoc25.png",
+		"outputAbbreviatedPath": "\/img\/logo-homeaidoc25.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/menu.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3587,
+		"inputAbbreviatedPath": "\/img\/menu.png",
+		"outputAbbreviatedPath": "\/img\/menu.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/paypal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 977,
+		"inputAbbreviatedPath": "\/img\/paypal.png",
+		"outputAbbreviatedPath": "\/img\/paypal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pillar-development.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18837,
+		"inputAbbreviatedPath": "\/img\/pillar-development.jpg",
+		"outputAbbreviatedPath": "\/img\/pillar-development.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pillar-service-alt2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27960,
+		"inputAbbreviatedPath": "\/img\/pillar-service-alt2.jpg",
+		"outputAbbreviatedPath": "\/img\/pillar-service-alt2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pillar-service.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21323,
+		"inputAbbreviatedPath": "\/img\/pillar-service.jpg",
+		"outputAbbreviatedPath": "\/img\/pillar-service.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmanuel-02-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53002,
+		"inputAbbreviatedPath": "\/img\/shelter-emmanuel-02-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmanuel-02-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmanuel-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109025,
+		"inputAbbreviatedPath": "\/img\/shelter-emmanuel-02.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmanuel-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmanuel-03-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 98752,
+		"inputAbbreviatedPath": "\/img\/shelter-emmanuel-03-full.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmanuel-03-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmanuel-03-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42165,
+		"inputAbbreviatedPath": "\/img\/shelter-emmanuel-03-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmanuel-03-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmanuel-04-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96222,
+		"inputAbbreviatedPath": "\/img\/shelter-emmanuel-04-full.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmanuel-04-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmanuel-05-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42482,
+		"inputAbbreviatedPath": "\/img\/shelter-emmanuel-05-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmanuel-05-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmanuel-06-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21331,
+		"inputAbbreviatedPath": "\/img\/shelter-emmanuel-06-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmanuel-06-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmanuel-sponsors.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39464,
+		"inputAbbreviatedPath": "\/img\/shelter-emmanuel-sponsors.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmanuel-sponsors.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmauel-house\/01-emmanuel-house-exterior.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125008,
+		"inputAbbreviatedPath": "\/img\/shelter-emmauel-house\/01-emmanuel-house-exterior.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmauel-house\/01-emmanuel-house-exterior.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmauel-house\/02-emmanuel-house-exterior.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 160134,
+		"inputAbbreviatedPath": "\/img\/shelter-emmauel-house\/02-emmanuel-house-exterior.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmauel-house\/02-emmanuel-house-exterior.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmauel-house\/03-emmanuel-house-framing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 108702,
+		"inputAbbreviatedPath": "\/img\/shelter-emmauel-house\/03-emmanuel-house-framing.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmauel-house\/03-emmanuel-house-framing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmauel-house\/04-emmanuel-house-ribbon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 63865,
+		"inputAbbreviatedPath": "\/img\/shelter-emmauel-house\/04-emmanuel-house-ribbon.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmauel-house\/04-emmanuel-house-ribbon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmauel-house\/05-emmanuel-house-patio.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133940,
+		"inputAbbreviatedPath": "\/img\/shelter-emmauel-house\/05-emmanuel-house-patio.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmauel-house\/05-emmanuel-house-patio.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmauel-house\/06-emmanuel-house-family-room.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82621,
+		"inputAbbreviatedPath": "\/img\/shelter-emmauel-house\/06-emmanuel-house-family-room.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmauel-house\/06-emmanuel-house-family-room.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-emmauel-house\/07-emmanuel-house-fireplace.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 127404,
+		"inputAbbreviatedPath": "\/img\/shelter-emmauel-house\/07-emmanuel-house-fireplace.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-emmauel-house\/07-emmanuel-house-fireplace.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-hishouse2-full.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 121199,
+		"inputAbbreviatedPath": "\/img\/shelter-hishouse2-full.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-hishouse2-full.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-hishouse2-mobile.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60802,
+		"inputAbbreviatedPath": "\/img\/shelter-hishouse2-mobile.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-hishouse2-mobile.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelter-hishouse2-travis.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 92803,
+		"inputAbbreviatedPath": "\/img\/shelter-hishouse2-travis.jpg",
+		"outputAbbreviatedPath": "\/img\/shelter-hishouse2-travis.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Casa-Teresa-I.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 203444,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Casa-Teresa-I.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Casa-Teresa-I.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Casa-Teresa-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187922,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Casa-Teresa-II.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Casa-Teresa-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Casa-Teresa-III.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 173390,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Casa-Teresa-III.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Casa-Teresa-III.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Friends-Shelter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 177465,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Friends-Shelter.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Friends-Shelter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Girls-Hope.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 329698,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Girls-Hope.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Girls-Hope.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Habitat-for-Humanity.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234030,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Habitat-for-Humanity.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Habitat-for-Humanity.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-HIS-House-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 201897,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-HIS-House-II.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-HIS-House-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Hope-Family-Housing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 251225,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Hope-Family-Housing.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Hope-Family-Housing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Isaiah-House.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263588,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Isaiah-House.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Isaiah-House.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Lauras-House-III.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.05714e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Lauras-House-III.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Lauras-House-III.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Marys-Shelter-I.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 176411,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Marys-Shelter-I.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Marys-Shelter-I.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Marys-Shelter-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182097,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Marys-Shelter-II.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Marys-Shelter-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Meadowgrass.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 281727,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Meadowgrass.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Meadowgrass.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-New-Vista-Shelter-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 264590,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-New-Vista-Shelter-II.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-New-Vista-Shelter-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Orangewood-Childrens-Home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 331134,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Orangewood-Childrens-Home.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Orangewood-Childrens-Home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Precious-Life-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187616,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Precious-Life-II.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Precious-Life-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Precious-Life-III.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 220488,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Precious-Life-III.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Precious-Life-III.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Precious-Life-IV.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 198688,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Precious-Life-IV.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Precious-Life-IV.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-San-Miguel-Residence-I.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 211754,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-San-Miguel-Residence-I.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-San-Miguel-Residence-I.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-The-Teen-Project.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 234035,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-The-Teen-Project.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-The-Teen-Project.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/16x9-Village-of-Hope.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 266935,
+		"inputAbbreviatedPath": "\/img\/shelters\/16x9-Village-of-Hope.jpg",
+		"outputAbbreviatedPath": "\/img\/shelters\/16x9-Village-of-Hope.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Anaheim-Interfaith-Shelter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.20832e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Anaheim-Interfaith-Shelter.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Anaheim-Interfaith-Shelter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Anchor-House.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 475746,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Anchor-House.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Anchor-House.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Beacon-House.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.17183e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Beacon-House.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Beacon-House.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Casa-Teresa-I.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 931522,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Casa-Teresa-I.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Casa-Teresa-I.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Casa-Teresa-II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.07792e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Casa-Teresa-II.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Casa-Teresa-II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Casa-Teresa-III.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 832997,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Casa-Teresa-III.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Casa-Teresa-III.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-El-Modena-Shelter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 960348,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-El-Modena-Shelter.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-El-Modena-Shelter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Emmanuel-House.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.72187e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Emmanuel-House.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Emmanuel-House.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Friends-Shelter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 984310,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Friends-Shelter.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Friends-Shelter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Friendship-Shelter-Henderson-House.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.012e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Friendship-Shelter-Henderson-House.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Friendship-Shelter-Henderson-House.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Girls-Hope.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.4674e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Girls-Hope.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Girls-Hope.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Grace-House.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.08344e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Grace-House.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Grace-House.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-H.O.M.E.S.-I.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.00892e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-H.O.M.E.S.-I.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-H.O.M.E.S.-I.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-H.O.M.E.S.-II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.11006e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-H.O.M.E.S.-II.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-H.O.M.E.S.-II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Habitat-for-Humanity.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.14367e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Habitat-for-Humanity.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Habitat-for-Humanity.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-HIS-House-I.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.2688e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-HIS-House-I.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-HIS-House-I.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-HIS-House-II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.09872e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-HIS-House-II.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-HIS-House-II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Hope-Family-Housing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.30301e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Hope-Family-Housing.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Hope-Family-Housing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-House-of-Hope.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13348e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-House-of-Hope.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-House-of-Hope.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Human-Options.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.27881e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Human-Options.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Human-Options.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Huntington-Youth-Shelter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.13595e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Huntington-Youth-Shelter.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Huntington-Youth-Shelter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Interval-House-I.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 558620,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Interval-House-I.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Interval-House-I.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Interval-House-II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 557006,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Interval-House-II.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Interval-House-II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Interval-House-III.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.14047e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Interval-House-III.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Interval-House-III.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Irvine-Farmhouse-I.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.29063e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Irvine-Farmhouse-I.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Irvine-Farmhouse-I.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Irvine-Farmhouse-II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.1414e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Irvine-Farmhouse-II.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Irvine-Farmhouse-II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Isaiah-House.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.11006e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Isaiah-House.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Isaiah-House.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Laura's-House-I.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 693151,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Laura's-House-I.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Laura's-House-I.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Mary's-Shelter-I-&-II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.2315e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Mary's-Shelter-I-&-II.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Mary's-Shelter-I-&-II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-New-Vista-Shelter-II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.28184e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-New-Vista-Shelter-II.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-New-Vista-Shelter-II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Orangewood-Children's-Home.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.44246e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Orangewood-Children's-Home.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Orangewood-Children's-Home.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Precious-Life-Shelter-I.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.83514e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Precious-Life-Shelter-I.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Precious-Life-Shelter-I.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Precious-Life-Shelter-II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 917268,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Precious-Life-Shelter-II.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Precious-Life-Shelter-II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Precious-Life-Shelter-III.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.63133e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Precious-Life-Shelter-III.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Precious-Life-Shelter-III.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Precious-Life-Shelter-IV-01.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 815466,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Precious-Life-Shelter-IV-01.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Precious-Life-Shelter-IV-01.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Precious-Life-Shelter-IV-02.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 784829,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Precious-Life-Shelter-IV-02.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Precious-Life-Shelter-IV-02.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Regina-House.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.44188e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Regina-House.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Regina-House.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-San-Miguel-Residence-I.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.03017e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-San-Miguel-Residence-I.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-San-Miguel-Residence-I.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-San-Miguel-Residence-II.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.14538e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-San-Miguel-Residence-II.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-San-Miguel-Residence-II.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Shelter-for-the-Homeless.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.17281e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Shelter-for-the-Homeless.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Shelter-for-the-Homeless.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-The-Teen-Project.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.26967e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-The-Teen-Project.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-The-Teen-Project.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Thomas-House.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 378475,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Thomas-House.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Thomas-House.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/shelters\/8x3-Women's-Transitional-Living-Center.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.20005e+06,
+		"inputAbbreviatedPath": "\/img\/shelters\/8x3-Women's-Transitional-Living-Center.png",
+		"outputAbbreviatedPath": "\/img\/shelters\/8x3-Women's-Transitional-Living-Center.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/social-facebook.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4052,
+		"inputAbbreviatedPath": "\/img\/social-facebook.png",
+		"outputAbbreviatedPath": "\/img\/social-facebook.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/social-gplus.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5152,
+		"inputAbbreviatedPath": "\/img\/social-gplus.png",
+		"outputAbbreviatedPath": "\/img\/social-gplus.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/social-instagram.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4522,
+		"inputAbbreviatedPath": "\/img\/social-instagram.png",
+		"outputAbbreviatedPath": "\/img\/social-instagram.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/social-twitter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4485,
+		"inputAbbreviatedPath": "\/img\/social-twitter.png",
+		"outputAbbreviatedPath": "\/img\/social-twitter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/social-youtube.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5092,
+		"inputAbbreviatedPath": "\/img\/social-youtube.png",
+		"outputAbbreviatedPath": "\/img\/social-youtube.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/squairy_light.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24023,
+		"inputAbbreviatedPath": "\/img\/squairy_light.png",
+		"outputAbbreviatedPath": "\/img\/squairy_light.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/squairy_light_@2X.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31744,
+		"inputAbbreviatedPath": "\/img\/squairy_light_@2X.png",
+		"outputAbbreviatedPath": "\/img\/squairy_light_@2X.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/story-travis-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75533,
+		"inputAbbreviatedPath": "\/img\/story-travis-01.jpg",
+		"outputAbbreviatedPath": "\/img\/story-travis-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb-development.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22338,
+		"inputAbbreviatedPath": "\/img\/thumb-development.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb-development.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Anaheim-Interfaith-Shelter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30247,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Anaheim-Interfaith-Shelter.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Anaheim-Interfaith-Shelter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Anchor-House.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28949,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Anchor-House.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Anchor-House.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Beacon-House.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28016,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Beacon-House.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Beacon-House.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Casa-Teresa-I.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31719,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Casa-Teresa-I.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Casa-Teresa-I.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Casa-Teresa-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28401,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Casa-Teresa-II.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Casa-Teresa-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Casa-Teresa-III.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23483,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Casa-Teresa-III.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Casa-Teresa-III.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-El-Modena-Shelter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21985,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-El-Modena-Shelter.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-El-Modena-Shelter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Emmanuel-House.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39679,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Emmanuel-House.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Emmanuel-House.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Friends-Shelter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24196,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Friends-Shelter.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Friends-Shelter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Friendship-Shelter-Henderson-House.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28609,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Friendship-Shelter-Henderson-House.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Friendship-Shelter-Henderson-House.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Girls-Hope.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40512,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Girls-Hope.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Girls-Hope.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Grace-House.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23936,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Grace-House.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Grace-House.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Habitat-for-Humanity.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32813,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Habitat-for-Humanity.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Habitat-for-Humanity.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-HIS-House-I.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31318,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-HIS-House-I.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-HIS-House-I.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-HIS-House-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 27113,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-HIS-House-II.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-HIS-House-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-His-House.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19694,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-His-House.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-His-House.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-HOMES-I.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30529,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-HOMES-I.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-HOMES-I.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-HOMES-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36170,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-HOMES-II.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-HOMES-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Hope-Family-Housing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32113,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Hope-Family-Housing.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Hope-Family-Housing.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-House-of-Hope.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28240,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-House-of-Hope.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-House-of-Hope.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Huntington-Youth-Shelter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30294,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Huntington-Youth-Shelter.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Huntington-Youth-Shelter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Irvine-Farmhouse-I.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41361,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Irvine-Farmhouse-I.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Irvine-Farmhouse-I.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Irvine-Farmhouse-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34193,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Irvine-Farmhouse-II.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Irvine-Farmhouse-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Isaiah-House.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38417,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Isaiah-House.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Isaiah-House.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Marys-Shelter.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24978,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Marys-Shelter.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Marys-Shelter.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Meadowgrass.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29340,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Meadowgrass.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Meadowgrass.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-New-Vista-Shelter-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 38133,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-New-Vista-Shelter-II.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-New-Vista-Shelter-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Orangewood-Childrens-Home.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33419,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Orangewood-Childrens-Home.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Orangewood-Childrens-Home.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-I.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33248,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-I.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-I.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31895,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-II.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-III.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39123,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-III.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-III.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-IV-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30021,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-IV-01.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-IV-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-IV-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28517,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-IV-02.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Precious-Life-Shelter-IV-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Regina-House.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 33608,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Regina-House.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Regina-House.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-San-Miguel-Residence-I.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28248,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-San-Miguel-Residence-I.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-San-Miguel-Residence-I.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-San-Miguel-Residence-II.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 35425,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-San-Miguel-Residence-II.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-San-Miguel-Residence-II.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Shelter-for-the-Homeless.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26105,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Shelter-for-the-Homeless.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Shelter-for-the-Homeless.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-The-Teen-Project.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28653,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-The-Teen-Project.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-The-Teen-Project.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/4x3-Thomas-House.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 23605,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Thomas-House.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/4x3-Thomas-House.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/thumb_shelters\/8x3-Emmanuel-House.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 255219,
+		"inputAbbreviatedPath": "\/img\/thumb_shelters\/8x3-Emmanuel-House.jpg",
+		"outputAbbreviatedPath": "\/img\/thumb_shelters\/8x3-Emmanuel-House.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/x.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1066,
+		"inputAbbreviatedPath": "\/img\/x.png",
+		"outputAbbreviatedPath": "\/img\/x.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/index copy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index copy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/dx.chartjs.debug.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/dx.chartjs.debug.js",
+		"outputAbbreviatedPath": "\/js\/min\/dx.chartjs.debug-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/dx.chartjs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/dx.chartjs.js",
+		"outputAbbreviatedPath": "\/js\/min\/dx.chartjs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/glide\/glide.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/glide\/glide.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/globalize.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/globalize.js",
+		"outputAbbreviatedPath": "\/js\/min\/globalize-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/globalize.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/globalize.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/globalize.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery-1.10.2.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery-1.10.2.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery-1.10.2-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery-1.10.2.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery-1.10.2.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery-1.10.2.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery-2.0.3.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery-2.0.3.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery-2.0.3-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery-2.0.3.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery-2.0.3.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery-2.0.3.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery.countTo.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.countTo.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.countTo-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery.glide.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.glide.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.glide-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery.glide.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.glide.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.glide.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery.localScroll.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.localScroll.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.localScroll.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery.scrollTo.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.scrollTo.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.scrollTo.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery.sequence-min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.sequence-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.sequence-min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/jquery.simplemodal.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/jquery.simplemodal.js",
+		"outputAbbreviatedPath": "\/js\/min\/jquery.simplemodal-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/knockout-3.0.0.debug.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/knockout-3.0.0.debug.js",
+		"outputAbbreviatedPath": "\/js\/min\/knockout-3.0.0.debug-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/knockout-3.0.0.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/knockout-3.0.0.js",
+		"outputAbbreviatedPath": "\/js\/min\/knockout-3.0.0-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/liquid\/jquery.easing.1.3.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/liquid\/jquery.easing.1.3.js",
+		"outputAbbreviatedPath": "\/js\/liquid\/min\/jquery.easing.1.3-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/liquid\/jquery.liquid-slider.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/liquid\/jquery.liquid-slider.js",
+		"outputAbbreviatedPath": "\/js\/liquid\/min\/jquery.liquid-slider-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/liquid\/jquery.liquid-slider.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/liquid\/jquery.liquid-slider.min.js",
+		"outputAbbreviatedPath": "\/js\/liquid\/min\/jquery.liquid-slider.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/liquid\/jquery.touchSwipe.min-ck.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/liquid\/jquery.touchSwipe.min-ck.js",
+		"outputAbbreviatedPath": "\/js\/liquid\/min\/jquery.touchSwipe.min-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/liquid\/jquery.touchSwipe.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/liquid\/jquery.touchSwipe.min.js",
+		"outputAbbreviatedPath": "\/js\/liquid\/min\/jquery.touchSwipe.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/main.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/main.js",
+		"outputAbbreviatedPath": "\/js\/min\/main-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/main.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/main.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/main.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/min\/main-ck.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/main-ck.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/main-ck-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-core.debug.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-core.debug.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-core.debug-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-core.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-core.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-core-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-charts.debug.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-charts.debug.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-charts.debug-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-charts.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-charts.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-charts-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-core.debug.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-core.debug.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-core.debug-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-core.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-core.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-core-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-gauges.debug.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-gauges.debug.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-gauges.debug-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-gauges.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-gauges.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-gauges-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-rangeselector.debug.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-rangeselector.debug.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-rangeselector.debug-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-rangeselector.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-rangeselector.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-rangeselector-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-sparklines.debug.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-sparklines.debug.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-sparklines.debug-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-sparklines.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-sparklines.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-sparklines-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-vectormap.debug.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-vectormap.debug.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-vectormap.debug-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/modules\/dx.module-viz-vectormap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/modules\/dx.module-viz-vectormap.js",
+		"outputAbbreviatedPath": "\/js\/modules\/min\/dx.module-viz-vectormap-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/picturefill.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/picturefill.js",
+		"outputAbbreviatedPath": "\/js\/min\/picturefill-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/picturefill.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/picturefill.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/picturefill.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/jquery.royalslider.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/jquery.royalslider.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/min\/jquery.royalslider-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.active-class.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.active-class.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.active-class-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.animated-blocks.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.animated-blocks.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.animated-blocks-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.auto-height.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.auto-height.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.auto-height-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.autoplay.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.autoplay.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.autoplay-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.bullets.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.bullets.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.bullets-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.deeplinking.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.deeplinking.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.deeplinking-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.fullscreen.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.fullscreen.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.fullscreen-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.global-caption.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.global-caption.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.global-caption-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.nav-auto-hide.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.nav-auto-hide.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.nav-auto-hide-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.tabs.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.tabs.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.tabs-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.thumbnails.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.thumbnails.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.thumbnails-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.video.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.video.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.video-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/dev\/modules\/jquery.rs.visible-nearby.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/jquery.rs.visible-nearby.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/dev\/modules\/min\/jquery.rs.visible-nearby-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/grab.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 99,
+		"inputAbbreviatedPath": "\/js\/royalslider\/grab.png",
+		"outputAbbreviatedPath": "\/js\/royalslider\/grab.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/royalslider\/grabbing.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2889,
+		"inputAbbreviatedPath": "\/js\/royalslider\/grabbing.png",
+		"outputAbbreviatedPath": "\/js\/royalslider\/grabbing.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/royalslider\/jquery-1.8.3.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/jquery-1.8.3.min.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/min\/jquery-1.8.3.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/jquery.easing-1.3.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/jquery.easing-1.3.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/min\/jquery.easing-1.3-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/jquery.royalslider.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/jquery.royalslider.min.js",
+		"outputAbbreviatedPath": "\/js\/royalslider\/min\/jquery.royalslider.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/royalslider\/royalslider.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/royalslider.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/royalslider\/skins\/default-inverted\/rs-default-inverted.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/skins\/default-inverted\/rs-default-inverted.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/royalslider\/skins\/default-inverted\/rs-default-inverted.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2831,
+		"inputAbbreviatedPath": "\/js\/royalslider\/skins\/default-inverted\/rs-default-inverted.png",
+		"outputAbbreviatedPath": "\/js\/royalslider\/skins\/default-inverted\/rs-default-inverted.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/royalslider\/skins\/default\/rs-default.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/skins\/default\/rs-default.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/royalslider\/skins\/default\/rs-default.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3160,
+		"inputAbbreviatedPath": "\/js\/royalslider\/skins\/default\/rs-default.png",
+		"outputAbbreviatedPath": "\/js\/royalslider\/skins\/default\/rs-default.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/royalslider\/skins\/minimal-white\/rs-minimal-white.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/skins\/minimal-white\/rs-minimal-white.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/royalslider\/skins\/minimal-white\/rs-minimal-white.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5458,
+		"inputAbbreviatedPath": "\/js\/royalslider\/skins\/minimal-white\/rs-minimal-white.png",
+		"outputAbbreviatedPath": "\/js\/royalslider\/skins\/minimal-white\/rs-minimal-white.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/royalslider\/skins\/universal\/rs-universal.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/royalslider\/skins\/universal\/rs-universal.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/js\/royalslider\/skins\/universal\/rs-universal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5633,
+		"inputAbbreviatedPath": "\/js\/royalslider\/skins\/universal\/rs-universal.png",
+		"outputAbbreviatedPath": "\/js\/royalslider\/skins\/universal\/rs-universal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/js\/unslider.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/unslider.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/unslider.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/unslider.min.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/unslider.min.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/unslider.min.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vectormap-data\/africa.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vectormap-data\/africa.js",
+		"outputAbbreviatedPath": "\/js\/vectormap-data\/min\/africa-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vectormap-data\/canada.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vectormap-data\/canada.js",
+		"outputAbbreviatedPath": "\/js\/vectormap-data\/min\/canada-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vectormap-data\/eurasia.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vectormap-data\/eurasia.js",
+		"outputAbbreviatedPath": "\/js\/vectormap-data\/min\/eurasia-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vectormap-data\/europe.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vectormap-data\/europe.js",
+		"outputAbbreviatedPath": "\/js\/vectormap-data\/min\/europe-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vectormap-data\/usa.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vectormap-data\/usa.js",
+		"outputAbbreviatedPath": "\/js\/vectormap-data\/min\/usa-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vectormap-data\/world.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vectormap-data\/world.js",
+		"outputAbbreviatedPath": "\/js\/vectormap-data\/min\/world-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vendor\/jquery-1.9.1.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor\/jquery-1.9.1.min.js",
+		"outputAbbreviatedPath": "\/js\/vendor\/min\/jquery-1.9.1.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor\/modernizr-2.6.2-respond-1.1.0.min.js",
+		"outputAbbreviatedPath": "\/js\/vendor\/min\/modernizr-2.6.2-respond-1.1.0.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/waypoints.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/waypoints.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/waypoints.min-ck.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/leadership.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/leadership.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/privacy.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/privacy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/scss\/_base.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_base.scss",
+		"outputAbbreviatedPath": "\/css\/_base.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_buttons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_buttons.scss",
+		"outputAbbreviatedPath": "\/css\/_buttons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_forms.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_forms.scss",
+		"outputAbbreviatedPath": "\/css\/_forms.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_grid.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_grid.scss",
+		"outputAbbreviatedPath": "\/css\/_grid.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_icons.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_icons.scss",
+		"outputAbbreviatedPath": "\/css\/_icons.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_mixins.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_mixins.scss",
+		"outputAbbreviatedPath": "\/css\/_mixins.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_modal.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_modal.scss",
+		"outputAbbreviatedPath": "\/css\/_modal.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_nav.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_nav.scss",
+		"outputAbbreviatedPath": "\/css\/_nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_reset.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_reset.scss",
+		"outputAbbreviatedPath": "\/css\/_reset.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/_type.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/_type.scss",
+		"outputAbbreviatedPath": "\/css\/_type.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/main.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/main.scss",
+		"outputAbbreviatedPath": "\/css\/main.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/scss\/responsiveSlider.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/scss\/responsiveSlider.scss",
+		"outputAbbreviatedPath": "\/css\/responsiveSlider.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/slider.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/slider.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/snippets\/slider-snippet.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/snippets\/slider-snippet.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/work.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/work.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		}
+	},
+"hooks": [
+	],
+"lastSavedByUser": "Victor Cao",
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"bowerAbbreviatedPath": "",
+	"displayValue": "HomeAid",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "harddrive_brown"
+	},
+"projectSettings": {
+	"alwaysUseExternalServer": 0,
+	"animateCSSInjections": 1,
+	"autoApplyPSLanguageSettingsStyle": 0,
+	"autoprefixerBrowserString": "> 1%, last 2 versions, ff 17, opera 12.1",
+	"autoSyncProjectSettingsFile": 1,
+	"browserRefreshDelay": 0,
+	"coffeeAutoOutputPathRelativePath": "",
+	"coffeeAutoOutputPathReplace1": "",
+	"coffeeAutoOutputPathReplace2": "",
+	"coffeeAutoOutputPathStyle": 0,
+	"coffeeCreateSourceMap": 0,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no-unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"coffeeMinifyOutput": 1,
+	"coffeeOutputStyle": 0,
+	"coffeeSyntaxCheckerStyle": 1,
+	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerPreviewPathAddition": "",
+	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
+	"hamlAutoOutputPathRelativePath": "",
+	"hamlAutoOutputPathReplace1": "",
+	"hamlAutoOutputPathReplace2": "",
+	"hamlAutoOutputPathStyle": 0,
+	"hamlEscapeHTMLCharacters": 0,
+	"hamlNoEscapeInAttributes": 0,
+	"hamlOutputFormat": 2,
+	"hamlOutputStyle": 0,
+	"hamlUseCDATA": 0,
+	"hamlUseDoubleQuotes": 0,
+	"hamlUseUnixNewlines": 0,
+	"jadeAutoOutputPathRelativePath": "",
+	"jadeAutoOutputPathReplace1": "",
+	"jadeAutoOutputPathReplace2": "",
+	"jadeAutoOutputPathStyle": 0,
+	"jadeCompileDebug": 1,
+	"jadeOutputStyle": 0,
+	"javascriptAutoOutputPathRelativePath": "\/min",
+	"javascriptAutoOutputPathReplace1": "",
+	"javascriptAutoOutputPathReplace2": "",
+	"javascriptAutoOutputPathStyle": 2,
+	"javascriptCreateSourceMap": 1,
+	"javascriptOutputStyle": 1,
+	"javascriptOutputSuffix": "-ck",
+	"javascriptSyntaxCheckerStyle": 1,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"gcl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onevar": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"smarttabs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"trailing": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"ass": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"closure": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"continue": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eqeq": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"newcap": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nomen": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sloppy": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"stupid": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"todo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unparam": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"kitAutoOutputPathRelativePath": "",
+	"kitAutoOutputPathReplace1": "",
+	"kitAutoOutputPathReplace2": "",
+	"kitAutoOutputPathStyle": 0,
+	"lessAllowInsecureImports": 0,
+	"lessAutoOutputPathRelativePath": "..\/css",
+	"lessAutoOutputPathReplace1": "less",
+	"lessAutoOutputPathReplace2": "css",
+	"lessAutoOutputPathStyle": 2,
+	"lessCreateSourceMap": 0,
+	"lessDisableJavascript": 0,
+	"lessIeCompatibility": 1,
+	"lessOutputStyle": 0,
+	"lessRelativeURLS": 0,
+	"lessStrictImports": 0,
+	"lessStrictMath": 0,
+	"lessStrictUnits": 0,
+	"markdownAutoOutputPathRelativePath": "",
+	"markdownAutoOutputPathReplace1": "",
+	"markdownAutoOutputPathReplace2": "",
+	"markdownAutoOutputPathStyle": 0,
+	"markdownEnableFootnotes": 0,
+	"markdownEnableSmartyPants": 1,
+	"markdownExpandTabs": 1,
+	"reloadFileURLs": 0,
+	"sassAutoOutputPathRelativePath": "..\/css",
+	"sassAutoOutputPathReplace1": "sass",
+	"sassAutoOutputPathReplace2": "css",
+	"sassAutoOutputPathStyle": 2,
+	"sassCreateSourceMap": 0,
+	"sassDebugStyle": 0,
+	"sassDecimalPrecision": 5,
+	"sassOutputStyle": 0,
+	"sassUseLibsass": 0,
+	"shouldRunAutoprefixer": 0,
+	"shouldRunBless": 0,
+	"skippedItemsString": ".svn, .git, .hg, log, _logs, _cache, cache, logs",
+	"slimAutoOutputPathRelativePath": "",
+	"slimAutoOutputPathReplace1": "",
+	"slimAutoOutputPathReplace2": "",
+	"slimAutoOutputPathStyle": 0,
+	"slimCompileOnly": 0,
+	"slimLogicless": 0,
+	"slimOutputStyle": 1,
+	"slimRailsCompatible": 0,
+	"stylusAutoOutputPathRelativePath": "..\/css",
+	"stylusAutoOutputPathReplace1": "stylus",
+	"stylusAutoOutputPathReplace2": "css",
+	"stylusAutoOutputPathStyle": 2,
+	"stylusDebugStyle": 0,
+	"stylusImportCSS": 0,
+	"stylusOutputStyle": 0,
+	"stylusResolveRelativeURLS": 0,
+	"typescriptAutoOutputPathRelativePath": "\/js",
+	"typescriptAutoOutputPathReplace1": "",
+	"typescriptAutoOutputPathReplace2": "",
+	"typescriptAutoOutputPathStyle": 2,
+	"typescriptCreateDeclarationFile": 0,
+	"typescriptCreateSourceMap": 0,
+	"typescriptMinifyOutput": 0,
+	"typescriptModuleType": 0,
+	"typescriptNoImplicitAny": 0,
+	"typescriptNoResolve": 0,
+	"typescriptRemoveComments": 0,
+	"typescriptTargetECMAVersion": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"ascii-only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"bracketize": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"cascade": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"inline-script": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max-line-len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"quote-keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"screw-ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sort": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space-colon": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			}
+		},
+	"uglifyReservedNamesString": "$",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "2"
+}
